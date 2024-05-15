@@ -12,6 +12,10 @@
 
 所以所有颜色全部写成汉语拼音。
 
+### 多音字
+
+𬘬
+
 不过，节气名参照中国气象局的 [二十四节气翻译](https://www.cma.gov.cn/2011xzt/essjqzt/jqhz/jqhz02/201312/t20131213_233952.html) （略有修改）。
 
 | 中文 | 中国气象局翻译 | 变量名 |
@@ -138,10 +142,12 @@ const color = CTC.getColorByName("群青");
 | API 名称 | 参数 | 返回值 |
 | --- | --- | --- |
 | getColorByName | 参数可以是中文名或英文名<br/>1. 中文名（例：群青）<br/>2. 英语名（例：qunqing） | 颜色的对象 |
-| getColorListBySolarTerm | 参数有以下三种形式：<br/>1. 编号，从 0（立春） 开始<br />2. 中文名（例：立秋）<br />3. 英文名（例：AutumnBeginning） | 颜色对象的数组 |
+| getColorMapBySolarTerm | 参数有以下三种形式：<br/>1. 编号，从 0（立春） 开始<br />2. 中文名（例：立秋）<br />3. 英文名（例：AutumnBeginning） | 颜色对象的对象 |
 | getAllColorCnNameList | 无 | 所有颜色的中文名数组 |
 | getAllSolarTermCnNameList | 无 | 所有节气中文名的数组，顺序为：立春、雨水、惊蛰... |
-| getAllSolarTermNameList | 无 | 所有节气名称（命名空间名）的数组，顺序为：立春、雨水、惊蛰... |
+| getAllSolarTermNameList | 无 | 所有节气名称（命名空间的名称）的数组，顺序为：立春、雨水、惊蛰... |
+| getColorNameByCnName | 中文名（例：群青） | 英文名（例：qunqing） |
+| getColorCnNameByName | 英文名（例：qunqing） | 中文名（例：群青） |
 
 #### 颜色对象 API
 
