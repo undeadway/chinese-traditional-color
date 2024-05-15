@@ -9,10 +9,40 @@
 
 ![](./doc/CTC.png)
 
-因为原书中所有颜色的命名非常文艺，不好翻译。  
-所以所有颜色全部写成汉语拼音。
+因为原书中所有颜色的命名非常文艺，不好翻译，至少我不认为我有能力去翻译。  
+所以所有颜色（包括节气）全部写成汉语拼音。
 
-另，为了避免颜色名同音，加上了节气的命名空间（前缀）。  
+另外，为了避免颜色名同音，加上了节气的命名空间（前缀）。   
+不过，节气名参照中国气象局的[二十四节气翻译](https://www.cma.gov.cn/2011xzt/essjqzt/jqhz/jqhz02/201312/t20131213_233952.html)，略作修改。
+
+
+| 中文 | 中国气象局翻译 | 变量名 |
+| --- | --- | --- |
+| 立春 | the Beginning of Spring | SringBeginning |
+| 雨水 | Rain Water | RainWater |
+| 惊蛰 | the Waking of Insects | WakingInsects |
+| 春分 | the Spring Equinox | SpringEquinox |
+| 清明 | Pure Brightness | PureBrightness |
+| 谷雨 | Grain Rain | GrainRain |
+| 立夏 | the Beginning of Summer | SummerBeginning  |
+| 小满 | Lesser Fullness of Grain | LesserFullness |
+| 芒种 | Grain in Beard | GrainBeard |
+| 夏至 | the Summer Solstice | SummerSolstice |
+| 小暑 | Lesser Heat | LesserHeat |
+| 大暑 | Greater Heat | GreaterHeat |
+| 立秋 | the Beginning of Autumn | AutumnBeginning |
+| 处暑 | the End of Heat | HeatEnd |
+| 白露 | White Dew | WhiteDew |
+| 秋分 | the Autumn Equinox | AutumnEquinox |
+| 寒露 | Cold Dew | ColdDew |
+| 霜降 | Frost's Descent | FrostDescent |
+| 立冬 | the Beginning of Winter | WinterBeginning |
+| 小雪 | Lesser Snow | LesserSnow |
+| 大雪 | Greater Snow | GreaterSnow |
+| 冬至 | the Winter Solstice | WinterSolstice |
+| 小寒 | Lesser Cold | LesserCold |
+| 大寒 | Greater Cold | GreaterCold |
+
 再加上`ctc` 前缀，构成完整的名称。
 
 CSS 的格式：`--ctc_节气__颜色名`
