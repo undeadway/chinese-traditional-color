@@ -1,0 +1,1178 @@
+:root {
+	/* 节气：立春 */
+	/* 颜色：黄白游 */
+	--ctc_SringBeginning_huangbaiyou:#FFF799;
+	--ctc_SringBeginning_huangbaiyou-cymk:device-cmyk(0% 0% 50% 0% / 1, rgb(255 247 153));
+	/* 颜色：松花 */
+	--ctc_SringBeginning_songhua:#FFEE6F;
+	--ctc_SringBeginning_songhua-cymk:device-cmyk(0% 5% 65% 0% / 1, rgb(255 238 111));
+	/* 颜色：缃叶 */
+	--ctc_SringBeginning_xiangye:#ECD452;
+	--ctc_SringBeginning_xiangye-cymk:device-cmyk(10% 15% 75% 5% / 1, rgb(236 212 82));
+	/* 颜色：苍黄 */
+	--ctc_SringBeginning_canghuang:#B6A014;
+	--ctc_SringBeginning_canghuang-cymk:device-cmyk(35% 35% 100% 0% / 1, rgb(182 160 20));
+	/* 颜色：天缥 */
+	--ctc_SringBeginning_tianpiao:#D5EBE1;
+	--ctc_SringBeginning_tianpiao-cymk:device-cmyk(20% 0% 15% 0% / 1, rgb(213 235 225));
+	/* 颜色：沧浪 */
+	--ctc_SringBeginning_canglang:#B1D5C8;
+	--ctc_SringBeginning_canglang-cymk:device-cmyk(35% 5% 25% 0% / 1, rgb(177 213 200));
+	/* 颜色：苍莨 */
+	--ctc_SringBeginning_cangliang:#99BCAC;
+	--ctc_SringBeginning_cangliang-cymk:device-cmyk(35% 15% 35% 0% / 1, rgb(153 188 172));
+	/* 颜色：缥碧 */
+	--ctc_SringBeginning_piaobi:#80A492;
+	--ctc_SringBeginning_piaobi-cymk:device-cmyk(55% 25% 45% 0% / 1, rgb(128 164 146));
+	/* 颜色：流黄 */
+	--ctc_SringBeginning_liuhuang:#8B7042;
+	--ctc_SringBeginning_liuhuang-cymk:device-cmyk(50% 55% 80% 10% / 1, rgb(139 112 66));
+	/* 颜色：栗壳 */
+	--ctc_SringBeginning_like:#775039;
+	--ctc_SringBeginning_like-cymk:device-cmyk(35% 5% 25% 0% / 1, rgb(119 80 57));
+	/* 颜色：龙战 */
+	--ctc_SringBeginning_longzhan:#5F4321;
+	--ctc_SringBeginning_longzhan-cymk:device-cmyk(60% 70% 95% 35% / 1, rgb(95 67 33));
+	/* 颜色：青骊 */
+	--ctc_SringBeginning_qingli:#422517;
+	--ctc_SringBeginning_qingli-cymk:device-cmyk(65% 80% 90% 55% / 1, rgb(66 37 23));
+	/* 颜色：海天霞 */
+	--ctc_SringBeginning_haitianxia:#F3A694;
+	--ctc_SringBeginning_haitianxia-cymk:device-cmyk(0% 145% 35% 0% / 1, rgb(243 166 148));
+	/* 颜色：缙云 */
+	--ctc_SringBeginning_jinyun:#EE7959;
+	--ctc_SringBeginning_jinyun-cymk:device-cmyk(0% 65% 60% 0% / 1, rgb(238 121 89));
+	/* 颜色：𫄸黄 */
+	--ctc_SringBeginning_xunhuang:#BA5140;
+	--ctc_SringBeginning_xunhuang-cymk:device-cmyk(30% 80% 75% 0% / 1, rgb(186 81 64));
+	/* 颜色：珊瑚赫 */
+	--ctc_SringBeginning_shanhuhe:#C12C1F;
+	--ctc_SringBeginning_shanhuhe-cymk:device-cmyk(25% 95% 100% 0% / 1, rgb(193 44 31));
+	/* 节气：雨水 */
+	/* 颜色：盈盈 */
+	--ctc_RainWater_yingying:#F9D3E3;
+	--ctc_RainWater_yingying-cymk:device-cmyk(0% 25% 0% 0% / 1, rgb(249 211 227));
+	/* 颜色： */
+	--ctc_RainWater_:#NANNANNAN;
+	--ctc_RainWater_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_RainWater_:#NANNANNAN;
+	--ctc_RainWater_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_RainWater_:#NANNANNAN;
+	--ctc_RainWater_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_RainWater_:#NANNANNAN;
+	--ctc_RainWater_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_RainWater_:#NANNANNAN;
+	--ctc_RainWater_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_RainWater_:#NANNANNAN;
+	--ctc_RainWater_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_RainWater_:#NANNANNAN;
+	--ctc_RainWater_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_RainWater_:#NANNANNAN;
+	--ctc_RainWater_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_RainWater_:#NANNANNAN;
+	--ctc_RainWater_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_RainWater_:#NANNANNAN;
+	--ctc_RainWater_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_RainWater_:#NANNANNAN;
+	--ctc_RainWater_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_RainWater_:#NANNANNAN;
+	--ctc_RainWater_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_RainWater_:#NANNANNAN;
+	--ctc_RainWater_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_RainWater_:#NANNANNAN;
+	--ctc_RainWater_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_RainWater_:#NANNANNAN;
+	--ctc_RainWater_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 节气：惊蛰 */
+	/* 颜色： */
+	--ctc_WakingInsects_:#NANNANNAN;
+	--ctc_WakingInsects_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WakingInsects_:#NANNANNAN;
+	--ctc_WakingInsects_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WakingInsects_:#NANNANNAN;
+	--ctc_WakingInsects_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WakingInsects_:#NANNANNAN;
+	--ctc_WakingInsects_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WakingInsects_:#NANNANNAN;
+	--ctc_WakingInsects_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WakingInsects_:#NANNANNAN;
+	--ctc_WakingInsects_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WakingInsects_:#NANNANNAN;
+	--ctc_WakingInsects_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WakingInsects_:#NANNANNAN;
+	--ctc_WakingInsects_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WakingInsects_:#NANNANNAN;
+	--ctc_WakingInsects_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WakingInsects_:#NANNANNAN;
+	--ctc_WakingInsects_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WakingInsects_:#NANNANNAN;
+	--ctc_WakingInsects_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WakingInsects_:#NANNANNAN;
+	--ctc_WakingInsects_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WakingInsects_:#NANNANNAN;
+	--ctc_WakingInsects_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WakingInsects_:#NANNANNAN;
+	--ctc_WakingInsects_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WakingInsects_:#NANNANNAN;
+	--ctc_WakingInsects_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WakingInsects_:#NANNANNAN;
+	--ctc_WakingInsects_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 节气：春分 */
+	/* 颜色： */
+	--ctc_SpringEquinox_:#NANNANNAN;
+	--ctc_SpringEquinox_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SpringEquinox_:#NANNANNAN;
+	--ctc_SpringEquinox_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SpringEquinox_:#NANNANNAN;
+	--ctc_SpringEquinox_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SpringEquinox_:#NANNANNAN;
+	--ctc_SpringEquinox_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SpringEquinox_:#NANNANNAN;
+	--ctc_SpringEquinox_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SpringEquinox_:#NANNANNAN;
+	--ctc_SpringEquinox_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SpringEquinox_:#NANNANNAN;
+	--ctc_SpringEquinox_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SpringEquinox_:#NANNANNAN;
+	--ctc_SpringEquinox_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SpringEquinox_:#NANNANNAN;
+	--ctc_SpringEquinox_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SpringEquinox_:#NANNANNAN;
+	--ctc_SpringEquinox_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SpringEquinox_:#NANNANNAN;
+	--ctc_SpringEquinox_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SpringEquinox_:#NANNANNAN;
+	--ctc_SpringEquinox_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SpringEquinox_:#NANNANNAN;
+	--ctc_SpringEquinox_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SpringEquinox_:#NANNANNAN;
+	--ctc_SpringEquinox_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SpringEquinox_:#NANNANNAN;
+	--ctc_SpringEquinox_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SpringEquinox_:#NANNANNAN;
+	--ctc_SpringEquinox_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 节气：清明 */
+	/* 颜色： */
+	--ctc_PureBrightness_:#NANNANNAN;
+	--ctc_PureBrightness_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_PureBrightness_:#NANNANNAN;
+	--ctc_PureBrightness_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_PureBrightness_:#NANNANNAN;
+	--ctc_PureBrightness_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_PureBrightness_:#NANNANNAN;
+	--ctc_PureBrightness_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_PureBrightness_:#NANNANNAN;
+	--ctc_PureBrightness_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_PureBrightness_:#NANNANNAN;
+	--ctc_PureBrightness_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_PureBrightness_:#NANNANNAN;
+	--ctc_PureBrightness_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_PureBrightness_:#NANNANNAN;
+	--ctc_PureBrightness_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_PureBrightness_:#NANNANNAN;
+	--ctc_PureBrightness_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_PureBrightness_:#NANNANNAN;
+	--ctc_PureBrightness_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_PureBrightness_:#NANNANNAN;
+	--ctc_PureBrightness_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_PureBrightness_:#NANNANNAN;
+	--ctc_PureBrightness_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_PureBrightness_:#NANNANNAN;
+	--ctc_PureBrightness_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_PureBrightness_:#NANNANNAN;
+	--ctc_PureBrightness_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_PureBrightness_:#NANNANNAN;
+	--ctc_PureBrightness_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_PureBrightness_:#NANNANNAN;
+	--ctc_PureBrightness_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 节气：谷雨 */
+	/* 颜色： */
+	--ctc_GrainRain_:#NANNANNAN;
+	--ctc_GrainRain_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GrainRain_:#NANNANNAN;
+	--ctc_GrainRain_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GrainRain_:#NANNANNAN;
+	--ctc_GrainRain_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GrainRain_:#NANNANNAN;
+	--ctc_GrainRain_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GrainRain_:#NANNANNAN;
+	--ctc_GrainRain_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GrainRain_:#NANNANNAN;
+	--ctc_GrainRain_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GrainRain_:#NANNANNAN;
+	--ctc_GrainRain_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GrainRain_:#NANNANNAN;
+	--ctc_GrainRain_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GrainRain_:#NANNANNAN;
+	--ctc_GrainRain_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GrainRain_:#NANNANNAN;
+	--ctc_GrainRain_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GrainRain_:#NANNANNAN;
+	--ctc_GrainRain_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GrainRain_:#NANNANNAN;
+	--ctc_GrainRain_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GrainRain_:#NANNANNAN;
+	--ctc_GrainRain_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GrainRain_:#NANNANNAN;
+	--ctc_GrainRain_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GrainRain_:#NANNANNAN;
+	--ctc_GrainRain_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GrainRain_:#NANNANNAN;
+	--ctc_GrainRain_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 节气：立夏 */
+	/* 颜色： */
+	--ctc_SummerBeginning_:#NANNANNAN;
+	--ctc_SummerBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SummerBeginning_:#NANNANNAN;
+	--ctc_SummerBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SummerBeginning_:#NANNANNAN;
+	--ctc_SummerBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SummerBeginning_:#NANNANNAN;
+	--ctc_SummerBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SummerBeginning_:#NANNANNAN;
+	--ctc_SummerBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SummerBeginning_:#NANNANNAN;
+	--ctc_SummerBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SummerBeginning_:#NANNANNAN;
+	--ctc_SummerBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SummerBeginning_:#NANNANNAN;
+	--ctc_SummerBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SummerBeginning_:#NANNANNAN;
+	--ctc_SummerBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SummerBeginning_:#NANNANNAN;
+	--ctc_SummerBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SummerBeginning_:#NANNANNAN;
+	--ctc_SummerBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SummerBeginning_:#NANNANNAN;
+	--ctc_SummerBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SummerBeginning_:#NANNANNAN;
+	--ctc_SummerBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SummerBeginning_:#NANNANNAN;
+	--ctc_SummerBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SummerBeginning_:#NANNANNAN;
+	--ctc_SummerBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SummerBeginning_:#NANNANNAN;
+	--ctc_SummerBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 节气：小满 */
+	/* 颜色： */
+	--ctc_LesserFullness_:#NANNANNAN;
+	--ctc_LesserFullness_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserFullness_:#NANNANNAN;
+	--ctc_LesserFullness_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserFullness_:#NANNANNAN;
+	--ctc_LesserFullness_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserFullness_:#NANNANNAN;
+	--ctc_LesserFullness_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserFullness_:#NANNANNAN;
+	--ctc_LesserFullness_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserFullness_:#NANNANNAN;
+	--ctc_LesserFullness_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserFullness_:#NANNANNAN;
+	--ctc_LesserFullness_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserFullness_:#NANNANNAN;
+	--ctc_LesserFullness_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserFullness_:#NANNANNAN;
+	--ctc_LesserFullness_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserFullness_:#NANNANNAN;
+	--ctc_LesserFullness_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserFullness_:#NANNANNAN;
+	--ctc_LesserFullness_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserFullness_:#NANNANNAN;
+	--ctc_LesserFullness_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserFullness_:#NANNANNAN;
+	--ctc_LesserFullness_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserFullness_:#NANNANNAN;
+	--ctc_LesserFullness_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserFullness_:#NANNANNAN;
+	--ctc_LesserFullness_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserFullness_:#NANNANNAN;
+	--ctc_LesserFullness_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 节气：芒种 */
+	/* 颜色： */
+	--ctc_GrainBeard_:#NANNANNAN;
+	--ctc_GrainBeard_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GrainBeard_:#NANNANNAN;
+	--ctc_GrainBeard_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GrainBeard_:#NANNANNAN;
+	--ctc_GrainBeard_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GrainBeard_:#NANNANNAN;
+	--ctc_GrainBeard_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GrainBeard_:#NANNANNAN;
+	--ctc_GrainBeard_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GrainBeard_:#NANNANNAN;
+	--ctc_GrainBeard_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GrainBeard_:#NANNANNAN;
+	--ctc_GrainBeard_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GrainBeard_:#NANNANNAN;
+	--ctc_GrainBeard_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GrainBeard_:#NANNANNAN;
+	--ctc_GrainBeard_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GrainBeard_:#NANNANNAN;
+	--ctc_GrainBeard_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GrainBeard_:#NANNANNAN;
+	--ctc_GrainBeard_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GrainBeard_:#NANNANNAN;
+	--ctc_GrainBeard_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GrainBeard_:#NANNANNAN;
+	--ctc_GrainBeard_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GrainBeard_:#NANNANNAN;
+	--ctc_GrainBeard_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GrainBeard_:#NANNANNAN;
+	--ctc_GrainBeard_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GrainBeard_:#NANNANNAN;
+	--ctc_GrainBeard_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 节气：夏至 */
+	/* 颜色： */
+	--ctc_SummerSolstice_:#NANNANNAN;
+	--ctc_SummerSolstice_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SummerSolstice_:#NANNANNAN;
+	--ctc_SummerSolstice_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SummerSolstice_:#NANNANNAN;
+	--ctc_SummerSolstice_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SummerSolstice_:#NANNANNAN;
+	--ctc_SummerSolstice_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SummerSolstice_:#NANNANNAN;
+	--ctc_SummerSolstice_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SummerSolstice_:#NANNANNAN;
+	--ctc_SummerSolstice_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SummerSolstice_:#NANNANNAN;
+	--ctc_SummerSolstice_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SummerSolstice_:#NANNANNAN;
+	--ctc_SummerSolstice_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SummerSolstice_:#NANNANNAN;
+	--ctc_SummerSolstice_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SummerSolstice_:#NANNANNAN;
+	--ctc_SummerSolstice_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SummerSolstice_:#NANNANNAN;
+	--ctc_SummerSolstice_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SummerSolstice_:#NANNANNAN;
+	--ctc_SummerSolstice_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SummerSolstice_:#NANNANNAN;
+	--ctc_SummerSolstice_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SummerSolstice_:#NANNANNAN;
+	--ctc_SummerSolstice_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SummerSolstice_:#NANNANNAN;
+	--ctc_SummerSolstice_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_SummerSolstice_:#NANNANNAN;
+	--ctc_SummerSolstice_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 节气：小暑 */
+	/* 颜色： */
+	--ctc_LesserHeat_:#NANNANNAN;
+	--ctc_LesserHeat_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserHeat_:#NANNANNAN;
+	--ctc_LesserHeat_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserHeat_:#NANNANNAN;
+	--ctc_LesserHeat_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserHeat_:#NANNANNAN;
+	--ctc_LesserHeat_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserHeat_:#NANNANNAN;
+	--ctc_LesserHeat_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserHeat_:#NANNANNAN;
+	--ctc_LesserHeat_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserHeat_:#NANNANNAN;
+	--ctc_LesserHeat_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserHeat_:#NANNANNAN;
+	--ctc_LesserHeat_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserHeat_:#NANNANNAN;
+	--ctc_LesserHeat_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserHeat_:#NANNANNAN;
+	--ctc_LesserHeat_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserHeat_:#NANNANNAN;
+	--ctc_LesserHeat_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserHeat_:#NANNANNAN;
+	--ctc_LesserHeat_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserHeat_:#NANNANNAN;
+	--ctc_LesserHeat_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserHeat_:#NANNANNAN;
+	--ctc_LesserHeat_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserHeat_:#NANNANNAN;
+	--ctc_LesserHeat_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserHeat_:#NANNANNAN;
+	--ctc_LesserHeat_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 节气：大暑 */
+	/* 颜色： */
+	--ctc_GreaterHeat_:#NANNANNAN;
+	--ctc_GreaterHeat_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterHeat_:#NANNANNAN;
+	--ctc_GreaterHeat_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterHeat_:#NANNANNAN;
+	--ctc_GreaterHeat_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterHeat_:#NANNANNAN;
+	--ctc_GreaterHeat_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterHeat_:#NANNANNAN;
+	--ctc_GreaterHeat_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterHeat_:#NANNANNAN;
+	--ctc_GreaterHeat_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterHeat_:#NANNANNAN;
+	--ctc_GreaterHeat_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterHeat_:#NANNANNAN;
+	--ctc_GreaterHeat_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterHeat_:#NANNANNAN;
+	--ctc_GreaterHeat_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterHeat_:#NANNANNAN;
+	--ctc_GreaterHeat_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterHeat_:#NANNANNAN;
+	--ctc_GreaterHeat_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterHeat_:#NANNANNAN;
+	--ctc_GreaterHeat_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterHeat_:#NANNANNAN;
+	--ctc_GreaterHeat_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterHeat_:#NANNANNAN;
+	--ctc_GreaterHeat_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterHeat_:#NANNANNAN;
+	--ctc_GreaterHeat_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterHeat_:#NANNANNAN;
+	--ctc_GreaterHeat_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 节气：立秋 */
+	/* 颜色： */
+	--ctc_AutumnBeginning_:#NANNANNAN;
+	--ctc_AutumnBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_AutumnBeginning_:#NANNANNAN;
+	--ctc_AutumnBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_AutumnBeginning_:#NANNANNAN;
+	--ctc_AutumnBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_AutumnBeginning_:#NANNANNAN;
+	--ctc_AutumnBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_AutumnBeginning_:#NANNANNAN;
+	--ctc_AutumnBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_AutumnBeginning_:#NANNANNAN;
+	--ctc_AutumnBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_AutumnBeginning_:#NANNANNAN;
+	--ctc_AutumnBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_AutumnBeginning_:#NANNANNAN;
+	--ctc_AutumnBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_AutumnBeginning_:#NANNANNAN;
+	--ctc_AutumnBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_AutumnBeginning_:#NANNANNAN;
+	--ctc_AutumnBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_AutumnBeginning_:#NANNANNAN;
+	--ctc_AutumnBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_AutumnBeginning_:#NANNANNAN;
+	--ctc_AutumnBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_AutumnBeginning_:#NANNANNAN;
+	--ctc_AutumnBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_AutumnBeginning_:#NANNANNAN;
+	--ctc_AutumnBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_AutumnBeginning_:#NANNANNAN;
+	--ctc_AutumnBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_AutumnBeginning_:#NANNANNAN;
+	--ctc_AutumnBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 节气：处暑 */
+	/* 颜色： */
+	--ctc_HeatEnd_:#NANNANNAN;
+	--ctc_HeatEnd_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_HeatEnd_:#NANNANNAN;
+	--ctc_HeatEnd_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_HeatEnd_:#NANNANNAN;
+	--ctc_HeatEnd_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_HeatEnd_:#NANNANNAN;
+	--ctc_HeatEnd_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_HeatEnd_:#NANNANNAN;
+	--ctc_HeatEnd_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_HeatEnd_:#NANNANNAN;
+	--ctc_HeatEnd_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_HeatEnd_:#NANNANNAN;
+	--ctc_HeatEnd_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_HeatEnd_:#NANNANNAN;
+	--ctc_HeatEnd_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_HeatEnd_:#NANNANNAN;
+	--ctc_HeatEnd_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_HeatEnd_:#NANNANNAN;
+	--ctc_HeatEnd_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_HeatEnd_:#NANNANNAN;
+	--ctc_HeatEnd_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_HeatEnd_:#NANNANNAN;
+	--ctc_HeatEnd_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_HeatEnd_:#NANNANNAN;
+	--ctc_HeatEnd_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_HeatEnd_:#NANNANNAN;
+	--ctc_HeatEnd_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_HeatEnd_:#NANNANNAN;
+	--ctc_HeatEnd_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_HeatEnd_:#NANNANNAN;
+	--ctc_HeatEnd_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 节气：白露 */
+	/* 颜色： */
+	--ctc_WhiteDew_:#NANNANNAN;
+	--ctc_WhiteDew_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WhiteDew_:#NANNANNAN;
+	--ctc_WhiteDew_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WhiteDew_:#NANNANNAN;
+	--ctc_WhiteDew_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WhiteDew_:#NANNANNAN;
+	--ctc_WhiteDew_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WhiteDew_:#NANNANNAN;
+	--ctc_WhiteDew_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WhiteDew_:#NANNANNAN;
+	--ctc_WhiteDew_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WhiteDew_:#NANNANNAN;
+	--ctc_WhiteDew_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WhiteDew_:#NANNANNAN;
+	--ctc_WhiteDew_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WhiteDew_:#NANNANNAN;
+	--ctc_WhiteDew_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WhiteDew_:#NANNANNAN;
+	--ctc_WhiteDew_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WhiteDew_:#NANNANNAN;
+	--ctc_WhiteDew_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WhiteDew_:#NANNANNAN;
+	--ctc_WhiteDew_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WhiteDew_:#NANNANNAN;
+	--ctc_WhiteDew_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WhiteDew_:#NANNANNAN;
+	--ctc_WhiteDew_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WhiteDew_:#NANNANNAN;
+	--ctc_WhiteDew_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WhiteDew_:#NANNANNAN;
+	--ctc_WhiteDew_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 节气：秋分 */
+	/* 颜色： */
+	--ctc_AutumnEquinox_:#NANNANNAN;
+	--ctc_AutumnEquinox_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_AutumnEquinox_:#NANNANNAN;
+	--ctc_AutumnEquinox_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_AutumnEquinox_:#NANNANNAN;
+	--ctc_AutumnEquinox_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_AutumnEquinox_:#NANNANNAN;
+	--ctc_AutumnEquinox_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_AutumnEquinox_:#NANNANNAN;
+	--ctc_AutumnEquinox_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_AutumnEquinox_:#NANNANNAN;
+	--ctc_AutumnEquinox_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_AutumnEquinox_:#NANNANNAN;
+	--ctc_AutumnEquinox_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_AutumnEquinox_:#NANNANNAN;
+	--ctc_AutumnEquinox_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_AutumnEquinox_:#NANNANNAN;
+	--ctc_AutumnEquinox_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_AutumnEquinox_:#NANNANNAN;
+	--ctc_AutumnEquinox_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_AutumnEquinox_:#NANNANNAN;
+	--ctc_AutumnEquinox_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_AutumnEquinox_:#NANNANNAN;
+	--ctc_AutumnEquinox_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_AutumnEquinox_:#NANNANNAN;
+	--ctc_AutumnEquinox_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_AutumnEquinox_:#NANNANNAN;
+	--ctc_AutumnEquinox_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_AutumnEquinox_:#NANNANNAN;
+	--ctc_AutumnEquinox_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_AutumnEquinox_:#NANNANNAN;
+	--ctc_AutumnEquinox_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 节气：寒露 */
+	/* 颜色： */
+	--ctc_ColdDew_:#NANNANNAN;
+	--ctc_ColdDew_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_ColdDew_:#NANNANNAN;
+	--ctc_ColdDew_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_ColdDew_:#NANNANNAN;
+	--ctc_ColdDew_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_ColdDew_:#NANNANNAN;
+	--ctc_ColdDew_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_ColdDew_:#NANNANNAN;
+	--ctc_ColdDew_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_ColdDew_:#NANNANNAN;
+	--ctc_ColdDew_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_ColdDew_:#NANNANNAN;
+	--ctc_ColdDew_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_ColdDew_:#NANNANNAN;
+	--ctc_ColdDew_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_ColdDew_:#NANNANNAN;
+	--ctc_ColdDew_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_ColdDew_:#NANNANNAN;
+	--ctc_ColdDew_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_ColdDew_:#NANNANNAN;
+	--ctc_ColdDew_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_ColdDew_:#NANNANNAN;
+	--ctc_ColdDew_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_ColdDew_:#NANNANNAN;
+	--ctc_ColdDew_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_ColdDew_:#NANNANNAN;
+	--ctc_ColdDew_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_ColdDew_:#NANNANNAN;
+	--ctc_ColdDew_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_ColdDew_:#NANNANNAN;
+	--ctc_ColdDew_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 节气：霜降 */
+	/* 颜色： */
+	--ctc_FrostDescent_:#NANNANNAN;
+	--ctc_FrostDescent_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_FrostDescent_:#NANNANNAN;
+	--ctc_FrostDescent_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_FrostDescent_:#NANNANNAN;
+	--ctc_FrostDescent_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_FrostDescent_:#NANNANNAN;
+	--ctc_FrostDescent_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_FrostDescent_:#NANNANNAN;
+	--ctc_FrostDescent_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_FrostDescent_:#NANNANNAN;
+	--ctc_FrostDescent_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_FrostDescent_:#NANNANNAN;
+	--ctc_FrostDescent_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_FrostDescent_:#NANNANNAN;
+	--ctc_FrostDescent_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_FrostDescent_:#NANNANNAN;
+	--ctc_FrostDescent_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_FrostDescent_:#NANNANNAN;
+	--ctc_FrostDescent_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_FrostDescent_:#NANNANNAN;
+	--ctc_FrostDescent_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_FrostDescent_:#NANNANNAN;
+	--ctc_FrostDescent_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_FrostDescent_:#NANNANNAN;
+	--ctc_FrostDescent_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_FrostDescent_:#NANNANNAN;
+	--ctc_FrostDescent_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_FrostDescent_:#NANNANNAN;
+	--ctc_FrostDescent_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_FrostDescent_:#NANNANNAN;
+	--ctc_FrostDescent_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 节气：立冬 */
+	/* 颜色： */
+	--ctc_WinterBeginning_:#NANNANNAN;
+	--ctc_WinterBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WinterBeginning_:#NANNANNAN;
+	--ctc_WinterBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WinterBeginning_:#NANNANNAN;
+	--ctc_WinterBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WinterBeginning_:#NANNANNAN;
+	--ctc_WinterBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WinterBeginning_:#NANNANNAN;
+	--ctc_WinterBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WinterBeginning_:#NANNANNAN;
+	--ctc_WinterBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WinterBeginning_:#NANNANNAN;
+	--ctc_WinterBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WinterBeginning_:#NANNANNAN;
+	--ctc_WinterBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WinterBeginning_:#NANNANNAN;
+	--ctc_WinterBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WinterBeginning_:#NANNANNAN;
+	--ctc_WinterBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WinterBeginning_:#NANNANNAN;
+	--ctc_WinterBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WinterBeginning_:#NANNANNAN;
+	--ctc_WinterBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WinterBeginning_:#NANNANNAN;
+	--ctc_WinterBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WinterBeginning_:#NANNANNAN;
+	--ctc_WinterBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WinterBeginning_:#NANNANNAN;
+	--ctc_WinterBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WinterBeginning_:#NANNANNAN;
+	--ctc_WinterBeginning_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 节气：小雪 */
+	/* 颜色： */
+	--ctc_LesserSnow_:#NANNANNAN;
+	--ctc_LesserSnow_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserSnow_:#NANNANNAN;
+	--ctc_LesserSnow_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserSnow_:#NANNANNAN;
+	--ctc_LesserSnow_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserSnow_:#NANNANNAN;
+	--ctc_LesserSnow_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserSnow_:#NANNANNAN;
+	--ctc_LesserSnow_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserSnow_:#NANNANNAN;
+	--ctc_LesserSnow_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserSnow_:#NANNANNAN;
+	--ctc_LesserSnow_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserSnow_:#NANNANNAN;
+	--ctc_LesserSnow_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserSnow_:#NANNANNAN;
+	--ctc_LesserSnow_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserSnow_:#NANNANNAN;
+	--ctc_LesserSnow_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserSnow_:#NANNANNAN;
+	--ctc_LesserSnow_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserSnow_:#NANNANNAN;
+	--ctc_LesserSnow_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserSnow_:#NANNANNAN;
+	--ctc_LesserSnow_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserSnow_:#NANNANNAN;
+	--ctc_LesserSnow_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserSnow_:#NANNANNAN;
+	--ctc_LesserSnow_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserSnow_:#NANNANNAN;
+	--ctc_LesserSnow_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 节气：大雪 */
+	/* 颜色： */
+	--ctc_GreaterSnow_:#NANNANNAN;
+	--ctc_GreaterSnow_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterSnow_:#NANNANNAN;
+	--ctc_GreaterSnow_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterSnow_:#NANNANNAN;
+	--ctc_GreaterSnow_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterSnow_:#NANNANNAN;
+	--ctc_GreaterSnow_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterSnow_:#NANNANNAN;
+	--ctc_GreaterSnow_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterSnow_:#NANNANNAN;
+	--ctc_GreaterSnow_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterSnow_:#NANNANNAN;
+	--ctc_GreaterSnow_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterSnow_:#NANNANNAN;
+	--ctc_GreaterSnow_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterSnow_:#NANNANNAN;
+	--ctc_GreaterSnow_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterSnow_:#NANNANNAN;
+	--ctc_GreaterSnow_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterSnow_:#NANNANNAN;
+	--ctc_GreaterSnow_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterSnow_:#NANNANNAN;
+	--ctc_GreaterSnow_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterSnow_:#NANNANNAN;
+	--ctc_GreaterSnow_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterSnow_:#NANNANNAN;
+	--ctc_GreaterSnow_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterSnow_:#NANNANNAN;
+	--ctc_GreaterSnow_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterSnow_:#NANNANNAN;
+	--ctc_GreaterSnow_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 节气：冬至 */
+	/* 颜色： */
+	--ctc_WinterSolstice_:#NANNANNAN;
+	--ctc_WinterSolstice_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WinterSolstice_:#NANNANNAN;
+	--ctc_WinterSolstice_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WinterSolstice_:#NANNANNAN;
+	--ctc_WinterSolstice_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WinterSolstice_:#NANNANNAN;
+	--ctc_WinterSolstice_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WinterSolstice_:#NANNANNAN;
+	--ctc_WinterSolstice_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WinterSolstice_:#NANNANNAN;
+	--ctc_WinterSolstice_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WinterSolstice_:#NANNANNAN;
+	--ctc_WinterSolstice_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WinterSolstice_:#NANNANNAN;
+	--ctc_WinterSolstice_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WinterSolstice_:#NANNANNAN;
+	--ctc_WinterSolstice_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WinterSolstice_:#NANNANNAN;
+	--ctc_WinterSolstice_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WinterSolstice_:#NANNANNAN;
+	--ctc_WinterSolstice_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WinterSolstice_:#NANNANNAN;
+	--ctc_WinterSolstice_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WinterSolstice_:#NANNANNAN;
+	--ctc_WinterSolstice_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WinterSolstice_:#NANNANNAN;
+	--ctc_WinterSolstice_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WinterSolstice_:#NANNANNAN;
+	--ctc_WinterSolstice_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_WinterSolstice_:#NANNANNAN;
+	--ctc_WinterSolstice_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 节气：小寒 */
+	/* 颜色： */
+	--ctc_LesserCold_:#NANNANNAN;
+	--ctc_LesserCold_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserCold_:#NANNANNAN;
+	--ctc_LesserCold_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserCold_:#NANNANNAN;
+	--ctc_LesserCold_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserCold_:#NANNANNAN;
+	--ctc_LesserCold_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserCold_:#NANNANNAN;
+	--ctc_LesserCold_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserCold_:#NANNANNAN;
+	--ctc_LesserCold_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserCold_:#NANNANNAN;
+	--ctc_LesserCold_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserCold_:#NANNANNAN;
+	--ctc_LesserCold_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserCold_:#NANNANNAN;
+	--ctc_LesserCold_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserCold_:#NANNANNAN;
+	--ctc_LesserCold_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserCold_:#NANNANNAN;
+	--ctc_LesserCold_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserCold_:#NANNANNAN;
+	--ctc_LesserCold_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserCold_:#NANNANNAN;
+	--ctc_LesserCold_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserCold_:#NANNANNAN;
+	--ctc_LesserCold_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserCold_:#NANNANNAN;
+	--ctc_LesserCold_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_LesserCold_:#NANNANNAN;
+	--ctc_LesserCold_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 节气：大寒 */
+	/* 颜色： */
+	--ctc_GreaterCold_:#NANNANNAN;
+	--ctc_GreaterCold_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterCold_:#NANNANNAN;
+	--ctc_GreaterCold_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterCold_:#NANNANNAN;
+	--ctc_GreaterCold_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterCold_:#NANNANNAN;
+	--ctc_GreaterCold_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterCold_:#NANNANNAN;
+	--ctc_GreaterCold_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterCold_:#NANNANNAN;
+	--ctc_GreaterCold_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterCold_:#NANNANNAN;
+	--ctc_GreaterCold_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterCold_:#NANNANNAN;
+	--ctc_GreaterCold_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterCold_:#NANNANNAN;
+	--ctc_GreaterCold_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterCold_:#NANNANNAN;
+	--ctc_GreaterCold_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterCold_:#NANNANNAN;
+	--ctc_GreaterCold_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterCold_:#NANNANNAN;
+	--ctc_GreaterCold_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterCold_:#NANNANNAN;
+	--ctc_GreaterCold_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterCold_:#NANNANNAN;
+	--ctc_GreaterCold_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterCold_:#NANNANNAN;
+	--ctc_GreaterCold_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+	/* 颜色： */
+	--ctc_GreaterCold_:#NANNANNAN;
+	--ctc_GreaterCold_-cymk:device-cmyk(undefined% undefined% undefined% undefined% / 1, rgb(undefined undefined undefined));
+}
