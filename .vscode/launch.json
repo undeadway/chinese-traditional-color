@@ -7,9 +7,18 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "启动程序",
+            "name": "打包",
             "skipFiles": [
                 "<node_internals>/src/build.js"
+            ],
+            "program": "${file}"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "测试",
+            "skipFiles": [
+                "<node_internals>/src/test.js"
             ],
             "program": "${file}"
         }
