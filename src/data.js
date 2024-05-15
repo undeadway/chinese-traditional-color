@@ -36,7 +36,7 @@ for (const item of data) {
                 }
             },
             getHexRgb () {
-                return `#${methods.rgbToHex(rgb)}`;
+                return `#${methods.rgbToHex(r,g, b)}`;
             }
         }
     }
@@ -46,12 +46,12 @@ for (const item of data) {
 }
 
 exports = module.exports = {
-    getColorByCnName (cnName) {
-        const colorName = namesMap[cnName];
-        return cnNamesMap[colorName];
-    },
-    getColorByName () {
-
+    getColorByName (name) {
+        let colorName = namesMap[name];
+        if (!colorName) {
+            colorName = name;
+        }
+        return colorsMap[colorName];
     },
     getColorListBySolarTerm (input) {
         if (isNaN(input)) {
