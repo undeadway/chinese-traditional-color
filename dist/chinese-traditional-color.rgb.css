@@ -1,0 +1,1178 @@
+:root {
+/* 节气：立春 */
+/* 颜色：黄白游 */
+  --ctc_lichun_huangbaiyou: { color: #FFF799; }
+  --ctc_lichun_huangbaiyou-bg: { background-color: #FFF799; }
+/* 颜色：松花 */
+  --ctc_lichun_songhua: { color: #FFEE6F; }
+  --ctc_lichun_songhua-bg: { background-color: #FFEE6F; }
+/* 颜色：缃叶 */
+  --ctc_lichun_xiangye: { color: #ECD452; }
+  --ctc_lichun_xiangye-bg: { background-color: #ECD452; }
+/* 颜色：苍黄 */
+  --ctc_lichun_canghuang: { color: #B6A014; }
+  --ctc_lichun_canghuang-bg: { background-color: #B6A014; }
+/* 颜色：天缥 */
+  --ctc_lichun_tianpiao: { color: #D5EBE1; }
+  --ctc_lichun_tianpiao-bg: { background-color: #D5EBE1; }
+/* 颜色：沧浪 */
+  --ctc_lichun_canglang: { color: #B1D5C8; }
+  --ctc_lichun_canglang-bg: { background-color: #B1D5C8; }
+/* 颜色：苍莨 */
+  --ctc_lichun_cangliang: { color: #99BCAC; }
+  --ctc_lichun_cangliang-bg: { background-color: #99BCAC; }
+/* 颜色：缥碧 */
+  --ctc_lichun_piaobi: { color: #80A492; }
+  --ctc_lichun_piaobi-bg: { background-color: #80A492; }
+/* 颜色：流黄 */
+  --ctc_lichun_liuhuang: { color: #8B7042; }
+  --ctc_lichun_liuhuang-bg: { background-color: #8B7042; }
+/* 颜色：栗壳 */
+  --ctc_lichun_like: { color: #775039; }
+  --ctc_lichun_like-bg: { background-color: #775039; }
+/* 颜色：龙战 */
+  --ctc_lichun_longzhan: { color: #5F4321; }
+  --ctc_lichun_longzhan-bg: { background-color: #5F4321; }
+/* 颜色：青骊 */
+  --ctc_lichun_qingli: { color: #422517; }
+  --ctc_lichun_qingli-bg: { background-color: #422517; }
+/* 颜色：海天霞 */
+  --ctc_lichun_haitianxia: { color: #F3A694; }
+  --ctc_lichun_haitianxia-bg: { background-color: #F3A694; }
+/* 颜色：缙云 */
+  --ctc_lichun_jinyun: { color: #EE7959; }
+  --ctc_lichun_jinyun-bg: { background-color: #EE7959; }
+/* 颜色：𫄸黄 */
+  --ctc_lichun_xunhuang: { color: #BA5140; }
+  --ctc_lichun_xunhuang-bg: { background-color: #BA5140; }
+/* 颜色：珊瑚赫 */
+  --ctc_lichun_shanhuhe: { color: #C12C1F; }
+  --ctc_lichun_shanhuhe-bg: { background-color: #C12C1F; }
+/* 节气：雨水 */
+/* 颜色：盈盈 */
+  --ctc_yushui_yingying: { color: #F9D3E3; }
+  --ctc_yushui_yingying-bg: { background-color: #F9D3E3; }
+/* 颜色： */
+  --ctc_yushui_: { color: #NANNANNAN; }
+  --ctc_yushui_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_yushui_: { color: #NANNANNAN; }
+  --ctc_yushui_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_yushui_: { color: #NANNANNAN; }
+  --ctc_yushui_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_yushui_: { color: #NANNANNAN; }
+  --ctc_yushui_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_yushui_: { color: #NANNANNAN; }
+  --ctc_yushui_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_yushui_: { color: #NANNANNAN; }
+  --ctc_yushui_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_yushui_: { color: #NANNANNAN; }
+  --ctc_yushui_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_yushui_: { color: #NANNANNAN; }
+  --ctc_yushui_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_yushui_: { color: #NANNANNAN; }
+  --ctc_yushui_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_yushui_: { color: #NANNANNAN; }
+  --ctc_yushui_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_yushui_: { color: #NANNANNAN; }
+  --ctc_yushui_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_yushui_: { color: #NANNANNAN; }
+  --ctc_yushui_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_yushui_: { color: #NANNANNAN; }
+  --ctc_yushui_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_yushui_: { color: #NANNANNAN; }
+  --ctc_yushui_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_yushui_: { color: #NANNANNAN; }
+  --ctc_yushui_-bg: { background-color: #NANNANNAN; }
+/* 节气：惊蛰 */
+/* 颜色： */
+  --ctc_jingzhe_: { color: #NANNANNAN; }
+  --ctc_jingzhe_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_jingzhe_: { color: #NANNANNAN; }
+  --ctc_jingzhe_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_jingzhe_: { color: #NANNANNAN; }
+  --ctc_jingzhe_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_jingzhe_: { color: #NANNANNAN; }
+  --ctc_jingzhe_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_jingzhe_: { color: #NANNANNAN; }
+  --ctc_jingzhe_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_jingzhe_: { color: #NANNANNAN; }
+  --ctc_jingzhe_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_jingzhe_: { color: #NANNANNAN; }
+  --ctc_jingzhe_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_jingzhe_: { color: #NANNANNAN; }
+  --ctc_jingzhe_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_jingzhe_: { color: #NANNANNAN; }
+  --ctc_jingzhe_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_jingzhe_: { color: #NANNANNAN; }
+  --ctc_jingzhe_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_jingzhe_: { color: #NANNANNAN; }
+  --ctc_jingzhe_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_jingzhe_: { color: #NANNANNAN; }
+  --ctc_jingzhe_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_jingzhe_: { color: #NANNANNAN; }
+  --ctc_jingzhe_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_jingzhe_: { color: #NANNANNAN; }
+  --ctc_jingzhe_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_jingzhe_: { color: #NANNANNAN; }
+  --ctc_jingzhe_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_jingzhe_: { color: #NANNANNAN; }
+  --ctc_jingzhe_-bg: { background-color: #NANNANNAN; }
+/* 节气：春分 */
+/* 颜色： */
+  --ctc_chunfen_: { color: #NANNANNAN; }
+  --ctc_chunfen_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_chunfen_: { color: #NANNANNAN; }
+  --ctc_chunfen_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_chunfen_: { color: #NANNANNAN; }
+  --ctc_chunfen_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_chunfen_: { color: #NANNANNAN; }
+  --ctc_chunfen_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_chunfen_: { color: #NANNANNAN; }
+  --ctc_chunfen_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_chunfen_: { color: #NANNANNAN; }
+  --ctc_chunfen_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_chunfen_: { color: #NANNANNAN; }
+  --ctc_chunfen_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_chunfen_: { color: #NANNANNAN; }
+  --ctc_chunfen_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_chunfen_: { color: #NANNANNAN; }
+  --ctc_chunfen_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_chunfen_: { color: #NANNANNAN; }
+  --ctc_chunfen_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_chunfen_: { color: #NANNANNAN; }
+  --ctc_chunfen_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_chunfen_: { color: #NANNANNAN; }
+  --ctc_chunfen_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_chunfen_: { color: #NANNANNAN; }
+  --ctc_chunfen_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_chunfen_: { color: #NANNANNAN; }
+  --ctc_chunfen_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_chunfen_: { color: #NANNANNAN; }
+  --ctc_chunfen_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_chunfen_: { color: #NANNANNAN; }
+  --ctc_chunfen_-bg: { background-color: #NANNANNAN; }
+/* 节气：清明 */
+/* 颜色： */
+  --ctc_qingming_: { color: #NANNANNAN; }
+  --ctc_qingming_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_qingming_: { color: #NANNANNAN; }
+  --ctc_qingming_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_qingming_: { color: #NANNANNAN; }
+  --ctc_qingming_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_qingming_: { color: #NANNANNAN; }
+  --ctc_qingming_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_qingming_: { color: #NANNANNAN; }
+  --ctc_qingming_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_qingming_: { color: #NANNANNAN; }
+  --ctc_qingming_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_qingming_: { color: #NANNANNAN; }
+  --ctc_qingming_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_qingming_: { color: #NANNANNAN; }
+  --ctc_qingming_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_qingming_: { color: #NANNANNAN; }
+  --ctc_qingming_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_qingming_: { color: #NANNANNAN; }
+  --ctc_qingming_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_qingming_: { color: #NANNANNAN; }
+  --ctc_qingming_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_qingming_: { color: #NANNANNAN; }
+  --ctc_qingming_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_qingming_: { color: #NANNANNAN; }
+  --ctc_qingming_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_qingming_: { color: #NANNANNAN; }
+  --ctc_qingming_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_qingming_: { color: #NANNANNAN; }
+  --ctc_qingming_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_qingming_: { color: #NANNANNAN; }
+  --ctc_qingming_-bg: { background-color: #NANNANNAN; }
+/* 节气：谷雨 */
+/* 颜色： */
+  --ctc_guyu_: { color: #NANNANNAN; }
+  --ctc_guyu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_guyu_: { color: #NANNANNAN; }
+  --ctc_guyu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_guyu_: { color: #NANNANNAN; }
+  --ctc_guyu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_guyu_: { color: #NANNANNAN; }
+  --ctc_guyu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_guyu_: { color: #NANNANNAN; }
+  --ctc_guyu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_guyu_: { color: #NANNANNAN; }
+  --ctc_guyu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_guyu_: { color: #NANNANNAN; }
+  --ctc_guyu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_guyu_: { color: #NANNANNAN; }
+  --ctc_guyu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_guyu_: { color: #NANNANNAN; }
+  --ctc_guyu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_guyu_: { color: #NANNANNAN; }
+  --ctc_guyu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_guyu_: { color: #NANNANNAN; }
+  --ctc_guyu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_guyu_: { color: #NANNANNAN; }
+  --ctc_guyu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_guyu_: { color: #NANNANNAN; }
+  --ctc_guyu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_guyu_: { color: #NANNANNAN; }
+  --ctc_guyu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_guyu_: { color: #NANNANNAN; }
+  --ctc_guyu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_guyu_: { color: #NANNANNAN; }
+  --ctc_guyu_-bg: { background-color: #NANNANNAN; }
+/* 节气：立夏 */
+/* 颜色： */
+  --ctc_lixia_: { color: #NANNANNAN; }
+  --ctc_lixia_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_lixia_: { color: #NANNANNAN; }
+  --ctc_lixia_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_lixia_: { color: #NANNANNAN; }
+  --ctc_lixia_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_lixia_: { color: #NANNANNAN; }
+  --ctc_lixia_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_lixia_: { color: #NANNANNAN; }
+  --ctc_lixia_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_lixia_: { color: #NANNANNAN; }
+  --ctc_lixia_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_lixia_: { color: #NANNANNAN; }
+  --ctc_lixia_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_lixia_: { color: #NANNANNAN; }
+  --ctc_lixia_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_lixia_: { color: #NANNANNAN; }
+  --ctc_lixia_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_lixia_: { color: #NANNANNAN; }
+  --ctc_lixia_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_lixia_: { color: #NANNANNAN; }
+  --ctc_lixia_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_lixia_: { color: #NANNANNAN; }
+  --ctc_lixia_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_lixia_: { color: #NANNANNAN; }
+  --ctc_lixia_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_lixia_: { color: #NANNANNAN; }
+  --ctc_lixia_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_lixia_: { color: #NANNANNAN; }
+  --ctc_lixia_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_lixia_: { color: #NANNANNAN; }
+  --ctc_lixia_-bg: { background-color: #NANNANNAN; }
+/* 节气：小满 */
+/* 颜色： */
+  --ctc_xiaoman_: { color: #NANNANNAN; }
+  --ctc_xiaoman_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoman_: { color: #NANNANNAN; }
+  --ctc_xiaoman_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoman_: { color: #NANNANNAN; }
+  --ctc_xiaoman_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoman_: { color: #NANNANNAN; }
+  --ctc_xiaoman_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoman_: { color: #NANNANNAN; }
+  --ctc_xiaoman_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoman_: { color: #NANNANNAN; }
+  --ctc_xiaoman_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoman_: { color: #NANNANNAN; }
+  --ctc_xiaoman_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoman_: { color: #NANNANNAN; }
+  --ctc_xiaoman_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoman_: { color: #NANNANNAN; }
+  --ctc_xiaoman_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoman_: { color: #NANNANNAN; }
+  --ctc_xiaoman_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoman_: { color: #NANNANNAN; }
+  --ctc_xiaoman_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoman_: { color: #NANNANNAN; }
+  --ctc_xiaoman_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoman_: { color: #NANNANNAN; }
+  --ctc_xiaoman_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoman_: { color: #NANNANNAN; }
+  --ctc_xiaoman_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoman_: { color: #NANNANNAN; }
+  --ctc_xiaoman_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoman_: { color: #NANNANNAN; }
+  --ctc_xiaoman_-bg: { background-color: #NANNANNAN; }
+/* 节气：芒种 */
+/* 颜色： */
+  --ctc_mangzhong_: { color: #NANNANNAN; }
+  --ctc_mangzhong_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_mangzhong_: { color: #NANNANNAN; }
+  --ctc_mangzhong_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_mangzhong_: { color: #NANNANNAN; }
+  --ctc_mangzhong_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_mangzhong_: { color: #NANNANNAN; }
+  --ctc_mangzhong_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_mangzhong_: { color: #NANNANNAN; }
+  --ctc_mangzhong_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_mangzhong_: { color: #NANNANNAN; }
+  --ctc_mangzhong_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_mangzhong_: { color: #NANNANNAN; }
+  --ctc_mangzhong_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_mangzhong_: { color: #NANNANNAN; }
+  --ctc_mangzhong_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_mangzhong_: { color: #NANNANNAN; }
+  --ctc_mangzhong_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_mangzhong_: { color: #NANNANNAN; }
+  --ctc_mangzhong_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_mangzhong_: { color: #NANNANNAN; }
+  --ctc_mangzhong_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_mangzhong_: { color: #NANNANNAN; }
+  --ctc_mangzhong_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_mangzhong_: { color: #NANNANNAN; }
+  --ctc_mangzhong_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_mangzhong_: { color: #NANNANNAN; }
+  --ctc_mangzhong_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_mangzhong_: { color: #NANNANNAN; }
+  --ctc_mangzhong_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_mangzhong_: { color: #NANNANNAN; }
+  --ctc_mangzhong_-bg: { background-color: #NANNANNAN; }
+/* 节气：夏至 */
+/* 颜色： */
+  --ctc_xiazhi_: { color: #NANNANNAN; }
+  --ctc_xiazhi_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiazhi_: { color: #NANNANNAN; }
+  --ctc_xiazhi_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiazhi_: { color: #NANNANNAN; }
+  --ctc_xiazhi_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiazhi_: { color: #NANNANNAN; }
+  --ctc_xiazhi_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiazhi_: { color: #NANNANNAN; }
+  --ctc_xiazhi_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiazhi_: { color: #NANNANNAN; }
+  --ctc_xiazhi_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiazhi_: { color: #NANNANNAN; }
+  --ctc_xiazhi_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiazhi_: { color: #NANNANNAN; }
+  --ctc_xiazhi_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiazhi_: { color: #NANNANNAN; }
+  --ctc_xiazhi_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiazhi_: { color: #NANNANNAN; }
+  --ctc_xiazhi_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiazhi_: { color: #NANNANNAN; }
+  --ctc_xiazhi_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiazhi_: { color: #NANNANNAN; }
+  --ctc_xiazhi_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiazhi_: { color: #NANNANNAN; }
+  --ctc_xiazhi_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiazhi_: { color: #NANNANNAN; }
+  --ctc_xiazhi_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiazhi_: { color: #NANNANNAN; }
+  --ctc_xiazhi_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiazhi_: { color: #NANNANNAN; }
+  --ctc_xiazhi_-bg: { background-color: #NANNANNAN; }
+/* 节气：小暑 */
+/* 颜色： */
+  --ctc_xiaoshu_: { color: #NANNANNAN; }
+  --ctc_xiaoshu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoshu_: { color: #NANNANNAN; }
+  --ctc_xiaoshu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoshu_: { color: #NANNANNAN; }
+  --ctc_xiaoshu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoshu_: { color: #NANNANNAN; }
+  --ctc_xiaoshu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoshu_: { color: #NANNANNAN; }
+  --ctc_xiaoshu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoshu_: { color: #NANNANNAN; }
+  --ctc_xiaoshu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoshu_: { color: #NANNANNAN; }
+  --ctc_xiaoshu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoshu_: { color: #NANNANNAN; }
+  --ctc_xiaoshu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoshu_: { color: #NANNANNAN; }
+  --ctc_xiaoshu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoshu_: { color: #NANNANNAN; }
+  --ctc_xiaoshu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoshu_: { color: #NANNANNAN; }
+  --ctc_xiaoshu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoshu_: { color: #NANNANNAN; }
+  --ctc_xiaoshu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoshu_: { color: #NANNANNAN; }
+  --ctc_xiaoshu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoshu_: { color: #NANNANNAN; }
+  --ctc_xiaoshu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoshu_: { color: #NANNANNAN; }
+  --ctc_xiaoshu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoshu_: { color: #NANNANNAN; }
+  --ctc_xiaoshu_-bg: { background-color: #NANNANNAN; }
+/* 节气：大暑 */
+/* 颜色： */
+  --ctc_dashu_: { color: #NANNANNAN; }
+  --ctc_dashu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dashu_: { color: #NANNANNAN; }
+  --ctc_dashu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dashu_: { color: #NANNANNAN; }
+  --ctc_dashu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dashu_: { color: #NANNANNAN; }
+  --ctc_dashu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dashu_: { color: #NANNANNAN; }
+  --ctc_dashu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dashu_: { color: #NANNANNAN; }
+  --ctc_dashu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dashu_: { color: #NANNANNAN; }
+  --ctc_dashu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dashu_: { color: #NANNANNAN; }
+  --ctc_dashu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dashu_: { color: #NANNANNAN; }
+  --ctc_dashu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dashu_: { color: #NANNANNAN; }
+  --ctc_dashu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dashu_: { color: #NANNANNAN; }
+  --ctc_dashu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dashu_: { color: #NANNANNAN; }
+  --ctc_dashu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dashu_: { color: #NANNANNAN; }
+  --ctc_dashu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dashu_: { color: #NANNANNAN; }
+  --ctc_dashu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dashu_: { color: #NANNANNAN; }
+  --ctc_dashu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dashu_: { color: #NANNANNAN; }
+  --ctc_dashu_-bg: { background-color: #NANNANNAN; }
+/* 节气：立秋 */
+/* 颜色： */
+  --ctc_liqiu_: { color: #NANNANNAN; }
+  --ctc_liqiu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_liqiu_: { color: #NANNANNAN; }
+  --ctc_liqiu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_liqiu_: { color: #NANNANNAN; }
+  --ctc_liqiu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_liqiu_: { color: #NANNANNAN; }
+  --ctc_liqiu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_liqiu_: { color: #NANNANNAN; }
+  --ctc_liqiu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_liqiu_: { color: #NANNANNAN; }
+  --ctc_liqiu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_liqiu_: { color: #NANNANNAN; }
+  --ctc_liqiu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_liqiu_: { color: #NANNANNAN; }
+  --ctc_liqiu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_liqiu_: { color: #NANNANNAN; }
+  --ctc_liqiu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_liqiu_: { color: #NANNANNAN; }
+  --ctc_liqiu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_liqiu_: { color: #NANNANNAN; }
+  --ctc_liqiu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_liqiu_: { color: #NANNANNAN; }
+  --ctc_liqiu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_liqiu_: { color: #NANNANNAN; }
+  --ctc_liqiu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_liqiu_: { color: #NANNANNAN; }
+  --ctc_liqiu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_liqiu_: { color: #NANNANNAN; }
+  --ctc_liqiu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_liqiu_: { color: #NANNANNAN; }
+  --ctc_liqiu_-bg: { background-color: #NANNANNAN; }
+/* 节气：处暑 */
+/* 颜色： */
+  --ctc_chushu_: { color: #NANNANNAN; }
+  --ctc_chushu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_chushu_: { color: #NANNANNAN; }
+  --ctc_chushu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_chushu_: { color: #NANNANNAN; }
+  --ctc_chushu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_chushu_: { color: #NANNANNAN; }
+  --ctc_chushu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_chushu_: { color: #NANNANNAN; }
+  --ctc_chushu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_chushu_: { color: #NANNANNAN; }
+  --ctc_chushu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_chushu_: { color: #NANNANNAN; }
+  --ctc_chushu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_chushu_: { color: #NANNANNAN; }
+  --ctc_chushu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_chushu_: { color: #NANNANNAN; }
+  --ctc_chushu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_chushu_: { color: #NANNANNAN; }
+  --ctc_chushu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_chushu_: { color: #NANNANNAN; }
+  --ctc_chushu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_chushu_: { color: #NANNANNAN; }
+  --ctc_chushu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_chushu_: { color: #NANNANNAN; }
+  --ctc_chushu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_chushu_: { color: #NANNANNAN; }
+  --ctc_chushu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_chushu_: { color: #NANNANNAN; }
+  --ctc_chushu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_chushu_: { color: #NANNANNAN; }
+  --ctc_chushu_-bg: { background-color: #NANNANNAN; }
+/* 节气：白露 */
+/* 颜色： */
+  --ctc_bailu_: { color: #NANNANNAN; }
+  --ctc_bailu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_bailu_: { color: #NANNANNAN; }
+  --ctc_bailu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_bailu_: { color: #NANNANNAN; }
+  --ctc_bailu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_bailu_: { color: #NANNANNAN; }
+  --ctc_bailu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_bailu_: { color: #NANNANNAN; }
+  --ctc_bailu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_bailu_: { color: #NANNANNAN; }
+  --ctc_bailu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_bailu_: { color: #NANNANNAN; }
+  --ctc_bailu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_bailu_: { color: #NANNANNAN; }
+  --ctc_bailu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_bailu_: { color: #NANNANNAN; }
+  --ctc_bailu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_bailu_: { color: #NANNANNAN; }
+  --ctc_bailu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_bailu_: { color: #NANNANNAN; }
+  --ctc_bailu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_bailu_: { color: #NANNANNAN; }
+  --ctc_bailu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_bailu_: { color: #NANNANNAN; }
+  --ctc_bailu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_bailu_: { color: #NANNANNAN; }
+  --ctc_bailu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_bailu_: { color: #NANNANNAN; }
+  --ctc_bailu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_bailu_: { color: #NANNANNAN; }
+  --ctc_bailu_-bg: { background-color: #NANNANNAN; }
+/* 节气：秋分 */
+/* 颜色： */
+  --ctc_qiufen_: { color: #NANNANNAN; }
+  --ctc_qiufen_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_qiufen_: { color: #NANNANNAN; }
+  --ctc_qiufen_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_qiufen_: { color: #NANNANNAN; }
+  --ctc_qiufen_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_qiufen_: { color: #NANNANNAN; }
+  --ctc_qiufen_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_qiufen_: { color: #NANNANNAN; }
+  --ctc_qiufen_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_qiufen_: { color: #NANNANNAN; }
+  --ctc_qiufen_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_qiufen_: { color: #NANNANNAN; }
+  --ctc_qiufen_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_qiufen_: { color: #NANNANNAN; }
+  --ctc_qiufen_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_qiufen_: { color: #NANNANNAN; }
+  --ctc_qiufen_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_qiufen_: { color: #NANNANNAN; }
+  --ctc_qiufen_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_qiufen_: { color: #NANNANNAN; }
+  --ctc_qiufen_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_qiufen_: { color: #NANNANNAN; }
+  --ctc_qiufen_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_qiufen_: { color: #NANNANNAN; }
+  --ctc_qiufen_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_qiufen_: { color: #NANNANNAN; }
+  --ctc_qiufen_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_qiufen_: { color: #NANNANNAN; }
+  --ctc_qiufen_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_qiufen_: { color: #NANNANNAN; }
+  --ctc_qiufen_-bg: { background-color: #NANNANNAN; }
+/* 节气：寒露 */
+/* 颜色： */
+  --ctc_hanlu_: { color: #NANNANNAN; }
+  --ctc_hanlu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_hanlu_: { color: #NANNANNAN; }
+  --ctc_hanlu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_hanlu_: { color: #NANNANNAN; }
+  --ctc_hanlu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_hanlu_: { color: #NANNANNAN; }
+  --ctc_hanlu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_hanlu_: { color: #NANNANNAN; }
+  --ctc_hanlu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_hanlu_: { color: #NANNANNAN; }
+  --ctc_hanlu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_hanlu_: { color: #NANNANNAN; }
+  --ctc_hanlu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_hanlu_: { color: #NANNANNAN; }
+  --ctc_hanlu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_hanlu_: { color: #NANNANNAN; }
+  --ctc_hanlu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_hanlu_: { color: #NANNANNAN; }
+  --ctc_hanlu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_hanlu_: { color: #NANNANNAN; }
+  --ctc_hanlu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_hanlu_: { color: #NANNANNAN; }
+  --ctc_hanlu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_hanlu_: { color: #NANNANNAN; }
+  --ctc_hanlu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_hanlu_: { color: #NANNANNAN; }
+  --ctc_hanlu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_hanlu_: { color: #NANNANNAN; }
+  --ctc_hanlu_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_hanlu_: { color: #NANNANNAN; }
+  --ctc_hanlu_-bg: { background-color: #NANNANNAN; }
+/* 节气：霜降 */
+/* 颜色： */
+  --ctc_shuangjiang_: { color: #NANNANNAN; }
+  --ctc_shuangjiang_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_shuangjiang_: { color: #NANNANNAN; }
+  --ctc_shuangjiang_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_shuangjiang_: { color: #NANNANNAN; }
+  --ctc_shuangjiang_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_shuangjiang_: { color: #NANNANNAN; }
+  --ctc_shuangjiang_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_shuangjiang_: { color: #NANNANNAN; }
+  --ctc_shuangjiang_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_shuangjiang_: { color: #NANNANNAN; }
+  --ctc_shuangjiang_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_shuangjiang_: { color: #NANNANNAN; }
+  --ctc_shuangjiang_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_shuangjiang_: { color: #NANNANNAN; }
+  --ctc_shuangjiang_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_shuangjiang_: { color: #NANNANNAN; }
+  --ctc_shuangjiang_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_shuangjiang_: { color: #NANNANNAN; }
+  --ctc_shuangjiang_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_shuangjiang_: { color: #NANNANNAN; }
+  --ctc_shuangjiang_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_shuangjiang_: { color: #NANNANNAN; }
+  --ctc_shuangjiang_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_shuangjiang_: { color: #NANNANNAN; }
+  --ctc_shuangjiang_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_shuangjiang_: { color: #NANNANNAN; }
+  --ctc_shuangjiang_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_shuangjiang_: { color: #NANNANNAN; }
+  --ctc_shuangjiang_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_shuangjiang_: { color: #NANNANNAN; }
+  --ctc_shuangjiang_-bg: { background-color: #NANNANNAN; }
+/* 节气：立冬 */
+/* 颜色： */
+  --ctc_lidong_: { color: #NANNANNAN; }
+  --ctc_lidong_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_lidong_: { color: #NANNANNAN; }
+  --ctc_lidong_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_lidong_: { color: #NANNANNAN; }
+  --ctc_lidong_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_lidong_: { color: #NANNANNAN; }
+  --ctc_lidong_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_lidong_: { color: #NANNANNAN; }
+  --ctc_lidong_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_lidong_: { color: #NANNANNAN; }
+  --ctc_lidong_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_lidong_: { color: #NANNANNAN; }
+  --ctc_lidong_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_lidong_: { color: #NANNANNAN; }
+  --ctc_lidong_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_lidong_: { color: #NANNANNAN; }
+  --ctc_lidong_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_lidong_: { color: #NANNANNAN; }
+  --ctc_lidong_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_lidong_: { color: #NANNANNAN; }
+  --ctc_lidong_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_lidong_: { color: #NANNANNAN; }
+  --ctc_lidong_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_lidong_: { color: #NANNANNAN; }
+  --ctc_lidong_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_lidong_: { color: #NANNANNAN; }
+  --ctc_lidong_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_lidong_: { color: #NANNANNAN; }
+  --ctc_lidong_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_lidong_: { color: #NANNANNAN; }
+  --ctc_lidong_-bg: { background-color: #NANNANNAN; }
+/* 节气：小雪 */
+/* 颜色： */
+  --ctc_xiaoxue_: { color: #NANNANNAN; }
+  --ctc_xiaoxue_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoxue_: { color: #NANNANNAN; }
+  --ctc_xiaoxue_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoxue_: { color: #NANNANNAN; }
+  --ctc_xiaoxue_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoxue_: { color: #NANNANNAN; }
+  --ctc_xiaoxue_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoxue_: { color: #NANNANNAN; }
+  --ctc_xiaoxue_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoxue_: { color: #NANNANNAN; }
+  --ctc_xiaoxue_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoxue_: { color: #NANNANNAN; }
+  --ctc_xiaoxue_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoxue_: { color: #NANNANNAN; }
+  --ctc_xiaoxue_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoxue_: { color: #NANNANNAN; }
+  --ctc_xiaoxue_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoxue_: { color: #NANNANNAN; }
+  --ctc_xiaoxue_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoxue_: { color: #NANNANNAN; }
+  --ctc_xiaoxue_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoxue_: { color: #NANNANNAN; }
+  --ctc_xiaoxue_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoxue_: { color: #NANNANNAN; }
+  --ctc_xiaoxue_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoxue_: { color: #NANNANNAN; }
+  --ctc_xiaoxue_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoxue_: { color: #NANNANNAN; }
+  --ctc_xiaoxue_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaoxue_: { color: #NANNANNAN; }
+  --ctc_xiaoxue_-bg: { background-color: #NANNANNAN; }
+/* 节气：大雪 */
+/* 颜色： */
+  --ctc_daxue_: { color: #NANNANNAN; }
+  --ctc_daxue_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_daxue_: { color: #NANNANNAN; }
+  --ctc_daxue_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_daxue_: { color: #NANNANNAN; }
+  --ctc_daxue_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_daxue_: { color: #NANNANNAN; }
+  --ctc_daxue_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_daxue_: { color: #NANNANNAN; }
+  --ctc_daxue_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_daxue_: { color: #NANNANNAN; }
+  --ctc_daxue_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_daxue_: { color: #NANNANNAN; }
+  --ctc_daxue_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_daxue_: { color: #NANNANNAN; }
+  --ctc_daxue_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_daxue_: { color: #NANNANNAN; }
+  --ctc_daxue_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_daxue_: { color: #NANNANNAN; }
+  --ctc_daxue_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_daxue_: { color: #NANNANNAN; }
+  --ctc_daxue_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_daxue_: { color: #NANNANNAN; }
+  --ctc_daxue_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_daxue_: { color: #NANNANNAN; }
+  --ctc_daxue_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_daxue_: { color: #NANNANNAN; }
+  --ctc_daxue_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_daxue_: { color: #NANNANNAN; }
+  --ctc_daxue_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_daxue_: { color: #NANNANNAN; }
+  --ctc_daxue_-bg: { background-color: #NANNANNAN; }
+/* 节气：冬至 */
+/* 颜色： */
+  --ctc_dongzhi_: { color: #NANNANNAN; }
+  --ctc_dongzhi_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dongzhi_: { color: #NANNANNAN; }
+  --ctc_dongzhi_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dongzhi_: { color: #NANNANNAN; }
+  --ctc_dongzhi_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dongzhi_: { color: #NANNANNAN; }
+  --ctc_dongzhi_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dongzhi_: { color: #NANNANNAN; }
+  --ctc_dongzhi_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dongzhi_: { color: #NANNANNAN; }
+  --ctc_dongzhi_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dongzhi_: { color: #NANNANNAN; }
+  --ctc_dongzhi_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dongzhi_: { color: #NANNANNAN; }
+  --ctc_dongzhi_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dongzhi_: { color: #NANNANNAN; }
+  --ctc_dongzhi_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dongzhi_: { color: #NANNANNAN; }
+  --ctc_dongzhi_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dongzhi_: { color: #NANNANNAN; }
+  --ctc_dongzhi_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dongzhi_: { color: #NANNANNAN; }
+  --ctc_dongzhi_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dongzhi_: { color: #NANNANNAN; }
+  --ctc_dongzhi_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dongzhi_: { color: #NANNANNAN; }
+  --ctc_dongzhi_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dongzhi_: { color: #NANNANNAN; }
+  --ctc_dongzhi_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dongzhi_: { color: #NANNANNAN; }
+  --ctc_dongzhi_-bg: { background-color: #NANNANNAN; }
+/* 节气：小寒 */
+/* 颜色： */
+  --ctc_xiaohan_: { color: #NANNANNAN; }
+  --ctc_xiaohan_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaohan_: { color: #NANNANNAN; }
+  --ctc_xiaohan_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaohan_: { color: #NANNANNAN; }
+  --ctc_xiaohan_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaohan_: { color: #NANNANNAN; }
+  --ctc_xiaohan_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaohan_: { color: #NANNANNAN; }
+  --ctc_xiaohan_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaohan_: { color: #NANNANNAN; }
+  --ctc_xiaohan_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaohan_: { color: #NANNANNAN; }
+  --ctc_xiaohan_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaohan_: { color: #NANNANNAN; }
+  --ctc_xiaohan_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaohan_: { color: #NANNANNAN; }
+  --ctc_xiaohan_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaohan_: { color: #NANNANNAN; }
+  --ctc_xiaohan_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaohan_: { color: #NANNANNAN; }
+  --ctc_xiaohan_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaohan_: { color: #NANNANNAN; }
+  --ctc_xiaohan_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaohan_: { color: #NANNANNAN; }
+  --ctc_xiaohan_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaohan_: { color: #NANNANNAN; }
+  --ctc_xiaohan_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaohan_: { color: #NANNANNAN; }
+  --ctc_xiaohan_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_xiaohan_: { color: #NANNANNAN; }
+  --ctc_xiaohan_-bg: { background-color: #NANNANNAN; }
+/* 节气：大寒 */
+/* 颜色： */
+  --ctc_dahan_: { color: #NANNANNAN; }
+  --ctc_dahan_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dahan_: { color: #NANNANNAN; }
+  --ctc_dahan_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dahan_: { color: #NANNANNAN; }
+  --ctc_dahan_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dahan_: { color: #NANNANNAN; }
+  --ctc_dahan_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dahan_: { color: #NANNANNAN; }
+  --ctc_dahan_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dahan_: { color: #NANNANNAN; }
+  --ctc_dahan_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dahan_: { color: #NANNANNAN; }
+  --ctc_dahan_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dahan_: { color: #NANNANNAN; }
+  --ctc_dahan_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dahan_: { color: #NANNANNAN; }
+  --ctc_dahan_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dahan_: { color: #NANNANNAN; }
+  --ctc_dahan_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dahan_: { color: #NANNANNAN; }
+  --ctc_dahan_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dahan_: { color: #NANNANNAN; }
+  --ctc_dahan_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dahan_: { color: #NANNANNAN; }
+  --ctc_dahan_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dahan_: { color: #NANNANNAN; }
+  --ctc_dahan_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dahan_: { color: #NANNANNAN; }
+  --ctc_dahan_-bg: { background-color: #NANNANNAN; }
+/* 颜色： */
+  --ctc_dahan_: { color: #NANNANNAN; }
+  --ctc_dahan_-bg: { background-color: #NANNANNAN; }
+}
