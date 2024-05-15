@@ -113,14 +113,14 @@ window.CTC = CTC;
 </html>
 ```
 
-#### CYMK
+#### CMYK
 
-**我们提供了 CYMK 的支持，但请确认您的系统是否支持 CYMK 再使用。**
+**我们提供了 CMYK 的支持，但请确认您的系统是否支持 CMYK 再使用。**
 
-CYMK 则是在普通变量名后面，加入 `-cymk` 后缀即可。
+CMYK 则是在普通变量名后面，加入 `-cmyk` 后缀即可。
 如：
 ```
-	color: var(--ctc_AutumnBeginning_qunqing-cymk);
+	color: var(--ctc_AutumnBeginning_qunqing-cmyk);
 ```
 
 ### 在 JS 中引用
@@ -150,5 +150,5 @@ const obj = CTC.getColorByCnName("群青");
 | API 名称 | 参数 | 返回值 |
 | --- | --- | --- |
 | getRgb | 无 | { r: 46, g: 89, b: 167 } |
-| getCymk | 无 | { c: 85, y: 65, m: 0, k: 0 } |
+| getCmyk | 无 | { c: 85, y: 65, m: 0, k: 0 } |
 | getHexRgb | 无 | #2E59A7 |

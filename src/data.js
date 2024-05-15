@@ -19,7 +19,7 @@ for (const item of data) {
     const nameList = [];
     const stColorMap = {};
     for (const color of items) {
-        const { rgb: [ r, g, b ], cymk: [ c, y, m, k], } = color.value;
+        const { rgb: [ r, g, b ], cmyk: [ c, y, m, k], } = color.value;
         cnNamesList.push(color.cnName);
         nameList.push(color.cnName);
 
@@ -30,7 +30,7 @@ for (const item of data) {
                     r, g, b
                 }
             },
-            getCymk () {
+            getCmyk () {
                 return {
                     c, y, m, k
                 }

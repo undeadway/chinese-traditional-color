@@ -9,11 +9,11 @@ for (const item of data) {
 	vals.push(`	/* 节气：${item.cnName} */`);
 	for (const color of items) {
 		const rgb = methods.rgbToHex(... color.value.rgb);
-		const cymk = methods.createCymk(color.value);
+		const cmyk = methods.createCmyk(color.value);
 		const cssName = `	--ctc_${name}_${color.name}`;
 
 		const rgbVal = `${cssName}:#${rgb};`;
-		const rgbBgVal = `${cssName}-cymk:${cymk};`;
+		const rgbBgVal = `${cssName}-cmyk:${cmyk};`;
 
 		vals.push(`	/* 颜色：${color.cnName} */`);
 		vals.push(rgbVal);
