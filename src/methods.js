@@ -7,7 +7,7 @@ exports = module.exports = {
 
 		return `${r}${g}${b}`;
 	},
-	createCmyk ({ cmyk, rgb }) {
-		return `device-cmyk(${cmyk[0]}% ${cmyk[1]}% ${cmyk[2]}% ${cmyk[3]}% / 1, rgb(${rgb[0]} ${rgb[1]} ${rgb[2]}))`;
+	createCmyk ({ cmyk: [ c, m, y, k ], rgb: [r, g, b] }) {
+		return `device-cmyk(${c}% ${m}% ${y}% ${k}% / 1, rgb(${r} ${g} ${b}))`;
 	}
 };
