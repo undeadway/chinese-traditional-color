@@ -1,0 +1,12 @@
+{
+    "name": "chinese-traditional-color",
+    "version": "0.0.1",
+    "private": false,
+    "scripts": {
+        "build": "sass src/index.scss dist/index.css",
+        "package": ""
+    },
+    "devDependencies": {
+        "sass": "^1.77.1"
+    }
+}
