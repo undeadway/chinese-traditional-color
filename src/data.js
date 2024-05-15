@@ -5,11 +5,12 @@ const output = {};
 const solarTermsCnNameList = [];
 const solarTermsNameList = [];
 const cnNamesList = [];
-const cnNamesMap = {};
+const cnNamesMapList = {};
 
 const stColorMapList = []; // 按节气分的列表（index）
 const colorsMap = {}; // 所有颜色的直接 map
 const namesMap = {}; // 中 => 英
+const cnNamesMap = {}; // 英 => 中
 
 for (const item of data) {
     const outMap = {};
@@ -23,8 +24,15 @@ for (const item of data) {
         cnNamesList.push(color.cnName);
         nameList.push(color.cnName);
 
+        cnNamesMap[color.name] = color.cnName;
         namesMap[color.cnName] = color.name;
         stColorMap[color.name] = colorsMap[color.name] = {
+            getName () {
+                return color.name;
+            },
+            getCnName () {
+                return color.cnName;
+            },
             getRgb () {
                 return {
                     r, g, b
@@ -41,7 +49,7 @@ for (const item of data) {
         }
     }
     stColorMapList.push(stColorMap);
-    cnNamesMap[cnName] = nameList;
+    cnNamesMapList[cnName] = nameList;
     output[name] = outMap;
 }
 
@@ -53,7 +61,7 @@ exports = module.exports = {
         }
         return colorsMap[colorName];
     },
-    getColorListBySolarTerm (input) {
+    getColorMapBySolarTerm (input) {
         if (isNaN(input)) {
             if (solarTermsCnNameList.indexOf(input) < 0) { // 英文
                 input = solarTermsNameList.indexOf(input);
@@ -71,5 +79,11 @@ exports = module.exports = {
     },
     getAllSolarTermNameList () {
         return [].concat(solarTermsNameList);
+    },
+    getColorNameByCnName (cnName) {
+        return namesMap[cnName];
+    },
+    getColorCnNameByName (name) {
+        return cnNamesMap[name];
     }
 };
