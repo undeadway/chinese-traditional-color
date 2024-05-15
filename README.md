@@ -2,7 +2,6 @@
 
 ![](./doc/book-cover.jpg)
 
-
 根据《中国传统色：故宫里的色彩美学》一书，将书中的色彩翻译成前端代码 。
 
 ## 关于变量名
@@ -13,8 +12,7 @@
 
 所以所有颜色全部写成汉语拼音。
 
-不过，节气名参照中国气象局的 [二十四节气翻译](https://www.cma.gov.cn/2011xzt/essjqzt/jqhz/jqhz02/201312/t20131213_233952.html) ，略作修改。
-
+不过，节气名参照中国气象局的 [二十四节气翻译](https://www.cma.gov.cn/2011xzt/essjqzt/jqhz/jqhz02/201312/t20131213_233952.html) （略有修改）。
 
 | 中文 | 中国气象局翻译 | 变量名 |
 | --- | --- | --- |
@@ -100,6 +98,7 @@ window.CTC = CTC;
 ## 使用
 
 ### CSS
+
 直接在 html 文件中使用相关名称引用即可
 
 ```
@@ -108,6 +107,7 @@ window.CTC = CTC;
 <style>
 .demo {
 	color: var(--ctc_AutumnBeginning_qunqing);
+	background:var(--ctc_SringBeginning_huangbaiyou);
 }
 </style>
 </html>
@@ -115,7 +115,9 @@ window.CTC = CTC;
 
 #### CMYK
 
-**我们提供了 CMYK 的支持，但请确认您的系统是否支持 CMYK 再使用。**
+CTC 通过 `device-cmyk` 来支持 CMYK 。  
+关于 `device-cmyk` ，请参考：[https://developer.mozilla.org/zh-CN/docs/Web/CSS/color_value/device-cmyk](https://developer.mozilla.org/zh-CN/docs/Web/CSS/color_value/device-cmyk) 。  
+**所以，在使用 CMYK 模式前，请确认您的系统是否支持 `device-cmyk` 。**
 
 CMYK 则是在普通变量名后面，加入 `-cmyk` 后缀即可。
 如：
@@ -123,19 +125,23 @@ CMYK 则是在普通变量名后面，加入 `-cmyk` 后缀即可。
 	color: var(--ctc_AutumnBeginning_qunqing-cmyk);
 ```
 
-### 在 JS 中引用
-
-JS 提供了几个 api 可供使用。
+### 在 JS 中使用 CTC
 
 #### 全局 API
 
+可以直接在 CTC 命名空间下使用，如：
+
+```
+const color = CTC.getColorByName("群青");
+```
+
 | API 名称 | 参数 | 返回值 |
 | --- | --- | --- |
-| getColorByCnName | 中文名（例：群青） | 颜色的对象 |
-| getColorByName | 英语名（例：qunqing） | 颜色的对象 |
-| getColorListBySolarTerm | 1. 编号，从 0（立春） 开始<br />2. 中文名（例：立秋）<br />3. 英文名（例：AutumnBeginning） | 颜色对象的数组 |
+| getColorByName | 参数可以是中文名或英文名<br/>1. 中文名（例：群青）<br/>2. 英语名（例：qunqing） | 颜色的对象 |
+| getColorListBySolarTerm | 参数有以下三种形式：<br/>1. 编号，从 0（立春） 开始<br />2. 中文名（例：立秋）<br />3. 英文名（例：AutumnBeginning） | 颜色对象的数组 |
 | getAllColorCnNameList | 无 | 所有颜色的中文名数组 |
-| getAllSolarTermNameList | 无 | 所有节气的中文名数组 |
+| getAllSolarTermCnNameList | 无 | 所有节气中文名的数组，顺序为：立春、雨水、惊蛰... |
+| getAllSolarTermNameList | 无 | 所有节气名称（命名空间名）的数组，顺序为：立春、雨水、惊蛰... |
 
 #### 颜色对象 API
 
