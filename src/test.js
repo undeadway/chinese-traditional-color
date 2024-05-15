@@ -1,5 +1,6 @@
 const CTC = require("./index");
 
-const color = CTC.getColorByName("盈盈");
+const solarTerm = CTC.getSolarTermByName("立春");
 
-console.log(color.getHexRgb() === "#F9D3E3");
+const color1 = solarTerm.getColorByName("黄白游");
+const color2 = CTC.getColorByName("松花");
