@@ -13,11 +13,11 @@ for (const item of data) {
 		const cssName = `	--ctc_${name}_${color.name}`;
 
 		const rgbVal = `${cssName}:#${rgb};`;
-		const rgbBgVal = `${cssName}-cmyk:${cmyk};`;
+		const cmykVal = `${cssName}-cmyk:${cmyk};`;
 
 		vals.push(`	/* 颜色：${color.cnName} */`);
 		vals.push(rgbVal);
-		vals.push(rgbBgVal);
+		vals.push(cmykVal);
 	}
 }
 
