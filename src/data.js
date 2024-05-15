@@ -36,7 +36,7 @@ for (const item of data) {
                 }
             },
             getHexRgb () {
-                return methods.rgbToHex(rgb);
+                return `#${methods.rgbToHex(rgb)}`;
             }
         }
     }
