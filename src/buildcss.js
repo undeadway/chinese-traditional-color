@@ -10,7 +10,7 @@ for (const item of data) {
 	for (const color of items) {
 		const rgb = methods.rgbToHex(... color.value.rgb);
 		const cmyk = methods.createCmyk(color.value);
-		const cssName = `	--ctc_${name}_${color.name}`;
+		const cssName = `	--CTC_${name}_${color.name}`;
 
 		const rgbVal = `${cssName}:#${rgb};`;
 		const cmykVal = `${cssName}-cmyk:${cmyk};`;
