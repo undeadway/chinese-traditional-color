@@ -76,21 +76,36 @@ CTC.AutumnBeginning.qunqing
 
 | 生僻字 | 涉及词汇 | 拼音 | 参考来源 |
 | --- | --- | --- | --- |
-| 缃 | 缃叶 | xiāng yè | [https://www.zdic.net/hans/缃叶](https://www.zdic.net/hans/缃叶) |
-| 缊、韨 | 缊韨 | wēn fú | [https://www.zdic.net/hans/缊韨](https://www.zdic.net/hans/缊韨) |
-| 綪、茷 | 綪茷 | qiàn fá | [https://www.zdic.net/hans/綪茷](https://www.zdic.net/hans/綪茷) |
-| 籥 | 夏籥 | xià yuè | [https://www.zdic.net/hans/夏籥](https://www.zdic.net/hans/夏籥) |
-| 雘 | 丹雘<br />青雘 | dān wò<br />qīng wò | [https://www.zdic.net/hans/丹雘](https://www.zdic.net/hans/丹雘)<br />[https://www.zdic.net/hans/青雘](https://www.zdic.net/hans/青雘) |
-| 緺 | 青緺 | qīng guā | [https://www.zdic.net/hans/青緺](https://www.zdic.net/hans/青緺) |
-| 赪 | 赪紫<br />赪霞<br />赪尾 | chēng zǐ<br />chēng xiá<br />chēng wěi | [https://www.zdic.net/hans/赪](https://www.zdic.net/hans/赪) |
-| 茈 | 茈藐 | zǐ miǎo | [https://www.zdic.net/hans/茈](https://www.zdic.net/hans/茈) |
-| 紶 | 紫紶 | zǐ qū | [https://www.zdic.net/hans/紶](https://www.zdic.net/hans/紶) |
-| 緅、絺 | 緅絺 | zōu chī | [https://www.zdic.net/hans/緅](https://www.zdic.net/hans/緅)<br />[https://www.zdic.net/hans/絺](https://www.zdic.net/hans/絺) |
-| 𬘬 |  |  |  |
-| 𬘬 |  |  |  |
-| 𬘬 |  |  |  |
-| 𬘬 |  |  |  |
-| 𬘬 |  |  |  |
+| 缃 | 缃叶 | xiāng yè | [缃叶](https://www.zdic.net/hans/缃叶) |
+| 缊、韨 | 缊韨 | wēn fú | [缊韨](https://www.zdic.net/hans/缊韨) |
+| 綪、茷 | 綪茷 | qiàn fá | [綪茷](https://www.zdic.net/hans/綪茷) |
+| 籥 | 夏籥 | xià yuè | [夏籥](https://www.zdic.net/hans/夏籥) |
+| 雘 | 丹雘<br />青雘 | dān wò<br />qīng wò | [丹雘](https://www.zdic.net/hans/丹雘)<br />[青雘](https://www.zdic.net/hans/青雘) |
+| 緺 | 青緺 | qīng guā | [青緺](https://www.zdic.net/hans/青緺) |
+| 赪 | 赪紫<br />赪霞<br />赪尾 | chēng zǐ<br />chēng xiá<br />chēng wěi | [赪](https://www.zdic.net/hans/赪) |
+| 茈 | 茈藐 | zǐ miǎo | [茈](https://www.zdic.net/hans/茈) |
+| 紶 | 紫紶 | zǐ qū | [紶](https://www.zdic.net/hans/紶) |
+| 緅、絺 | 緅絺 | zōu chī | [緅](https://www.zdic.net/hans/緅)、[絺](https://www.zdic.net/hans/絺) |
+| 罽 | 丹罽 | dān jì | [罽](https://www.zdic.net/hans/罽) |
+| 芰 | 芰荷 | jì hé | [芰荷](https://www.zdic.net/hans/芰荷) |
+| 埒 | 金埒 | jīn liè | [金埒](https://www.zdic.net/hans/金埒) |
+| 䒌、靘 | 䒌靘 | mìng qìng | [䒌](https://www.zdic.net/hans/䒌)<br />[靘](https://www.zdic.net/hans/靘) |
+| 璆 | 璆琳 | qiú lín | [璆琳](https://www.zdic.net/hans/璆琳) |
+| 赩 | 赩炽 | xì chì | [赩炽](https://www.zdic.net/hans/赩炽) |
+| 繎 | 大繎 | dà rán | [繎](https://www.zdic.net/hans/繎) |
+| 頩 | 玉頩 | yù pīng | [頩](https://www.zdic.net/hans/頩) |
+| 骍 | 骍刚 | xīng gāng | [骍刚](https://www.zdic.net/hans/骍刚) |
+| 荩、箧 | 荩箧 | jìn qiè | [荩箧](https://www.zdic.net/hans/荩箧) |
+| 秫 | 丹秫 | dān shú | [丹秫](https://www.zdic.net/hans/丹秫) |
+| 藘 | 茹藘 | rú lǘ | [茹藘](https://www.zdic.net/hans/茹藘) |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
 
 #### 1.1.1.3. ü
 
