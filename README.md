@@ -41,14 +41,15 @@
 | 小寒 | Lesser Cold | LesserCold |
 | 大寒 | Greater Cold | GreaterCold |
 
-同时，为了避免颜色名同音，加上了节气的命名空间（前缀）。   
-再加上`ctc` 前缀，构成完整的名称。
+同时，为了避免颜色名同音，加上了节气的名称。   
+再加上`CTC` 命名空间（前缀），构成完整的名称。  
+CTC 即 **C**hinese **T**radtional **C**olor 的缩写。
 
-CSS 的格式：`--ctc_节气__颜色名`
+CSS 的格式：`--CTC_节气_颜色名`
 
 例：
 ```
---ctc_AutumnBeginning_qunqing
+--CTC_AutumnBeginning_qunqing
 ```
 
 JS 的格式如：`CTC.节气.颜色名`
@@ -139,15 +140,15 @@ window.CTC = CTC;
 
 ## 3.1. CSS
 
-直接在 html 文件中使用相关名称引用即可
+直接在 html 文件中使用相关名称引用即可。
 
 ```
 <html>
 <div class="demo">abc</div>
 <style>
 .demo {
-	color: var(--ctc_AutumnBeginning_qunqing);
-	background:var(--ctc_SringBeginning_huangbaiyou);
+	color: var(--CTC_AutumnBeginning_qunqing);
+	background:var(--CTC_SringBeginning_huangbaiyou);
 }
 </style>
 </html>
@@ -155,17 +156,20 @@ window.CTC = CTC;
 
 ### 3.1.1. CMYK
 
-CTC 通过 `device-cmyk` 来支持 CMYK 。  
-关于 `device-cmyk` ，请参考：[https://developer.mozilla.org/zh-CN/docs/Web/CSS/color_value/device-cmyk](https://developer.mozilla.org/zh-CN/docs/Web/CSS/color_value/device-cmyk) 。  
+CTC 通过 `device-cmyk` 来支持 CMYK  <sup id="a2"><a href="#f2">注2</a></sup>。  
+
 **所以，在使用 CMYK 模式前，请确认您的系统是否支持 `device-cmyk` 。**
 
 CMYK 则是在普通变量名后面，加入 `-cmyk` 后缀即可。
 如：
 ```
-	color: var(--ctc_AutumnBeginning_qunqing-cmyk);
+	color: var(--CTC_AutumnBeginning_qunqing-cmyk);
 ```
 
 ## 3.2. JS
+
+所有对象都挂载在 CTC 对象下。  
+需要通过 CTC 来引用。
 
 ### 3.2.1. 全局对象
 
@@ -177,7 +181,18 @@ CMYK 则是在普通变量名后面，加入 `-cmyk` 后缀即可。
 如：
 
 ```
+<html>
+<div id="demo">abc</div>
+<script>
+dont demo = document.getElementById("demo");
 const color = CTC.getColorByName("群青");
+const bgColor = CTC.getColorByName("黄白游");
+demo.css({
+	"color": color.getHexRgb(),
+	"background"： bgColor.getHexRgb()
+});
+</script>
+</html>
 ```
 
 #### 3.2.1.2. API
@@ -236,4 +251,6 @@ const color2 = salorTerm.getColorByName("群青");
 <span id="f0"><a href="#a0">注0</a></span>：[24节气中英文对照](https://www.cma.gov.cn/2011xzt/essjqzt/jqhz/jqhz02/201312/t20131213_233952.html)
 
 <span id="f1"><a href="#a1">注1</a></span>：[中国人名汉语拼音字母拼写规则](http://www.moe.gov.cn/jyb_sjzl/ziliao/A19/201001/t20100115_75609.html)<br />　　 [“吕”字有了正式英文名“LYU”](http://edu.sina.com.cn/en/2012-10-11/094569768.shtml)
+
+<span id="f2"><a href="#a2">注2</a></span>：[https://developer.mozilla.org/zh-CN/docs/Web/CSS/color_value/device-cmyk](https://developer.mozilla.org/zh-CN/docs/Web/CSS/color_value/device-cmyk)
 
