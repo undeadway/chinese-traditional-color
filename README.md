@@ -65,47 +65,47 @@ CTC.AutumnBeginning.qunqing
 
 多音字的读音选择参考如下
 
-| 多音字 | 涉及词汇 | 拼音 | 参考来源 |
-| --- | --- | --- | --- |
-| 曾 | 曾青 | cénɡ qīnɡ | [https://www.zysj.com.cn/zhongyaocai/cengqing/index.html#ci417570](https://www.zysj.com.cn/zhongyaocai/cengqing/index.html#ci417570) |
-| 壳 | 栗壳 | lì ké | - |
+| 多音字 | 涉及词汇 | 拼音 | 变量名 | 参考来源 |
+| --- | --- | --- | --- | --- |
+| 曾 | 曾青 | cénɡ qīnɡ | cengqing | [https://www.zysj.com.cn/zhongyaocai/cengqing/index.html#ci417570](https://www.zysj.com.cn/zhongyaocai/cengqing/index.html#ci417570) |
+| 壳 | 栗壳 | lì ké | like | - |
 
 #### 1.1.1.2. 生僻字
 
 因为采用了拼音，而原书中有一些生僻字，这里将我认为的生僻字一级读音列出，供参考
 
-| 生僻字 | 涉及词汇 | 拼音 | 参考来源 |
-| --- | --- | --- | --- |
-| 缃 | 缃叶 | xiāng yè | [缃叶](https://www.zdic.net/hans/缃叶) |
-| 缊、韨 | 缊韨 | wēn fú | [缊韨](https://www.zdic.net/hans/缊韨) |
-| 綪、茷 | 綪茷 | qiàn fá | [綪茷](https://www.zdic.net/hans/綪茷) |
-| 籥 | 夏籥 | xià yuè | [夏籥](https://www.zdic.net/hans/夏籥) |
-| 雘 | 丹雘<br />青雘 | dān wò<br />qīng wò | [丹雘](https://www.zdic.net/hans/丹雘)<br />[青雘](https://www.zdic.net/hans/青雘) |
-| 緺 | 青緺 | qīng guā | [青緺](https://www.zdic.net/hans/青緺) |
-| 赪 | 赪紫<br />赪霞<br />赪尾 | chēng zǐ<br />chēng xiá<br />chēng wěi | [赪](https://www.zdic.net/hans/赪) |
-| 茈 | 茈藐 | zǐ miǎo | [茈](https://www.zdic.net/hans/茈) |
-| 紶 | 紫紶 | zǐ qū | [紶](https://www.zdic.net/hans/紶) |
-| 緅、絺 | 緅絺 | zōu chī | [緅](https://www.zdic.net/hans/緅)、[絺](https://www.zdic.net/hans/絺) |
-| 罽 | 丹罽 | dān jì | [罽](https://www.zdic.net/hans/罽) |
-| 芰 | 芰荷 | jì hé | [芰荷](https://www.zdic.net/hans/芰荷) |
-| 埒 | 金埒 | jīn liè | [金埒](https://www.zdic.net/hans/金埒) |
-| 䒌、靘 | 䒌靘 | mìng qìng | [䒌](https://www.zdic.net/hans/䒌)<br />[靘](https://www.zdic.net/hans/靘) |
-| 璆 | 璆琳 | qiú lín | [璆琳](https://www.zdic.net/hans/璆琳) |
-| 赩 | 赩炽 | xì chì | [赩炽](https://www.zdic.net/hans/赩炽) |
-| 繎 | 大繎 | dà rán | [繎](https://www.zdic.net/hans/繎) |
-| 頩 | 玉頩 | yù pīng | [頩](https://www.zdic.net/hans/頩) |
-| 骍 | 骍刚 | xīng gāng | [骍刚](https://www.zdic.net/hans/骍刚) |
-| 荩、箧 | 荩箧 | jìn qiè | [荩箧](https://www.zdic.net/hans/荩箧) |
-| 秫 | 丹秫 | dān shú | [丹秫](https://www.zdic.net/hans/丹秫) |
-| 藘 | 茹藘 | rú lǘ | [茹藘](https://www.zdic.net/hans/茹藘) |
-| 饧 | 沙饧 | shā xíng | [沙饧](https://www.zdic.net/hans/沙饧) |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
+| 多音字 | 涉及词汇 | 拼音 | 变量名 | 参考来源 |
+| --- | --- | --- | --- | --- |
+| 缃 | 缃叶 | xiāng yè | xiangye | [https://www.zdic.net/hans/缃叶](https://www.zdic.net/hans/缃叶) |
+| 缊、韨 | 缊韨 | wēn fú | wenfu | [https://www.zdic.net/hans/缊韨](https://www.zdic.net/hans/缊韨) |
+| 綪、茷 | 綪茷 | qiàn fá | qianfa | [https://www.zdic.net/hans/綪茷](https://www.zdic.net/hans/綪茷) |
+| 籥 | 夏籥 | xià yuè | xiayue | [https://www.zdic.net/hans/夏籥](https://www.zdic.net/hans/夏籥) |
+| 雘 | 丹雘<br />青雘 | dān wò<br />qīng wò | danwo<br />qingwo | [https://www.zdic.net/hans/丹雘](https://www.zdic.net/hans/丹雘)<br />[https://www.zdic.net/hans/青雘](https://www.zdic.net/hans/青雘) |
+| 緺 | 青緺 | qīng guā | qinggua | [https://www.zdic.net/hans/青緺](https://www.zdic.net/hans/青緺) |
+| 赪 | 赪紫<br />赪霞<br />赪尾 | chēng zǐ<br />chēng xiá<br />chēng wěi | chengzi<br />chengxia<br />chengwei | [https://www.zdic.net/hans/赪](https://www.zdic.net/hans/赪) |
+| 茈 | 茈藐 | zǐ miǎo | zimiao | [https://www.zdic.net/hans/茈](https://www.zdic.net/hans/茈) |
+| 紶 | 紫紶 | zǐ qū | ziqu | [https://www.zdic.net/hans/紶](https://www.zdic.net/hans/紶) |
+| 緅、絺 | 緅絺 | zōu chī | zouchi | [https://www.zdic.net/hans/緅](https://www.zdic.net/hans/緅)<br />[https://www.zdic.net/hans/絺](https://www.zdic.net/hans/絺) |
+| 罽 | 丹罽 | dān jì | danji | [https://www.zdic.net/hans/罽](https://www.zdic.net/hans/罽) |
+| 芰 | 芰荷 | jì hé | jihe | [https://www.zdic.net/hans/芰荷](https://www.zdic.net/hans/芰荷) |
+| 埒 | 金埒 | jīn liè | jinlie | [https://www.zdic.net/hans/金埒](https://www.zdic.net/hans/金埒) |
+| 䒌、靘 | 䒌靘 | mìng qìng | mingqing | [https://www.zdic.net/hans/䒌](https://www.zdic.net/hans/䒌)<br />[https://www.zdic.net/hans/靘](https://www.zdic.net/hans/靘) |
+| 璆 | 璆琳 | qiú lín | qiulin | [https://www.zdic.net/hans/璆琳](https://www.zdic.net/hans/璆琳) |
+| 赩 | 赩炽 | xì chì | xichi | [https://www.zdic.net/hans/赩炽](https://www.zdic.net/hans/赩炽) |
+| 繎 | 大繎 | dà rán | danran | [https://www.zdic.net/hans/繎](https://www.zdic.net/hans/繎) |
+| 頩 | 玉頩 | yù pīng | yuping | [https://www.zdic.net/hans/頩](https://www.zdic.net/hans/頩) |
+| 骍 | 骍刚 | xīng gāng | xinggang | [https://www.zdic.net/hans/骍刚](https://www.zdic.net/hans/骍刚) |
+| 荩、箧 | 荩箧 | jìn qiè | jinqie | [https://www.zdic.net/hans/荩箧](https://www.zdic.net/hans/荩箧) |
+| 秫 | 丹秫 | dān shú | danshu | [https://www.zdic.net/hans/丹秫](https://www.zdic.net/hans/丹秫) |
+| 藘 | 茹藘 | rú lǘ | rulyu | [https://www.zdic.net/hans/茹藘](https://www.zdic.net/hans/茹藘) |
+| 饧 | 沙饧 | shā xíng | shaxing | [https://www.zdic.net/hans/沙饧](https://www.zdic.net/hans/沙饧) |
+| 麹 | 麹尘 | qū chén | quchen | [https://www.zdic.net/hans/麴塵](https://www.zdic.net/hans/麴塵) |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
 
 #### 1.1.1.3. ü
 
