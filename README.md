@@ -98,7 +98,7 @@ CTC.AutumnBeginning.qunqing
 | 荩、箧 | 荩箧 | jìn qiè | [荩箧](https://www.zdic.net/hans/荩箧) |
 | 秫 | 丹秫 | dān shú | [丹秫](https://www.zdic.net/hans/丹秫) |
 | 藘 | 茹藘 | rú lǘ | [茹藘](https://www.zdic.net/hans/茹藘) |
-|  |  |  |  |
+| 饧 | 沙饧 | shā xíng | [沙饧](https://www.zdic.net/hans/沙饧) |
 |  |  |  |  |
 |  |  |  |  |
 |  |  |  |  |

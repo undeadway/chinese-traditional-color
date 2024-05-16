@@ -1505,104 +1505,104 @@
 				"name": "rulyu",
 				"cnName": "茹藘",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 163, 95, 101 ],
+					"cmyk": [ 40, 70, 50, 5 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "congqing",
+				"cnName": "葱青",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 237, 241, 187 ],
+					"cmyk": [ 10, 0, 35, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "shaoai",
+				"cnName": "少艾",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 227, 235, 152 ],
+					"cmyk": [ 15, 0, 50, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "qiqian",
+				"cnName": "绮钱",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 216, 222, 138 ],
+					"cmyk": [ 20, 5, 55, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "cuizun",
+				"cnName": "翠樽",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 205, 209, 113 ],
+					"cmyk": [ 25, 10, 65, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "shimi",
+				"cnName": "石蜜",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 212, 191, 137 ],
+					"cmyk": [ 20, 25, 50, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "shaxing",
+				"cnName": "沙饧",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 191, 166, 112 ],
+					"cmyk": [ 30, 35, 60, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "julyu",
+				"cnName": "巨吕",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 170, 142, 89 ],
+					"cmyk": [ 40, 45, 70, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "jijin",
+				"cnName": "吉金",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 137, 109, 71 ],
+					"cmyk": [ 55, 60, 80, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "shanlan",
+				"cnName": "山岚",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 190, 210, 187 ],
+					"cmyk": [ 30, 10, 30, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "lubo",
+				"cnName": "渌波",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 155, 180, 150 ],
+					"cmyk": [ 45, 20, 45, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "qingqiu",
+				"cnName": "青楸",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 129, 163, 128 ],
+					"cmyk": [ 55, 25, 55, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "luzhu",
+				"cnName": "菉竹",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 105, 142, 106 ],
+					"cmyk": [ 65, 35, 65, 0 ]
 				}
 			}
 		]
