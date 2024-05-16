@@ -4,7 +4,7 @@
 
 根据《中国传统色：故宫里的色彩美学》一书，将书中的色彩翻译成前端代码 。
 
-## 1.1. 关于变量名
+## 1.1. 关于颜色名
 
 因为原书中所有颜色的命名非常文艺，不好翻译，至少我不认为我有能力去翻译。 
 
@@ -12,7 +12,7 @@
 
 所以所有颜色全部写成汉语拼音。
 
-不过，节气名参照中国气象局的 [二十四节气翻译](https://www.cma.gov.cn/2011xzt/essjqzt/jqhz/jqhz02/201312/t20131213_233952.html) （略有修改）。
+不过，节气名参照中国气象局的翻译 <sup id="a0"><a href="#f0">注0</a></sup>（略有修改）。
 
 | 中文 | 中国气象局翻译 | 变量名 |
 | --- | --- | --- |
@@ -58,9 +58,45 @@ JS 的格式如：`CTC.节气.颜色名`
 CTC.AutumnBeginning.qunqing
 ```
 
-### 1.1.1. 多音字和生僻字
+### 1.1.1. 关于拼音
 
-𬘬
+#### 1.1.1.1. 多音字
+
+多音字的读音选择参考如下
+
+| 多音字 | 涉及词汇 | 拼音 | 参考来源 |
+| --- | --- | --- | --- |
+| 曾 | 曾青 | cénɡ qīnɡ | [https://www.zysj.com.cn/zhongyaocai/cengqing/index.html#ci417570](https://www.zysj.com.cn/zhongyaocai/cengqing/index.html#ci417570) |
+| 壳 | 栗壳 | lì ké | - |
+
+#### 1.1.1.2. 生僻字
+
+因为采用了拼音，而原书中有一些生僻字，这里将我认为的生僻字一级读音列出，供参考
+
+| 生僻字 | 涉及词汇 | 拼音 | 参考来源 |
+| --- | --- | --- | --- |
+| 缃 | 缃叶 | xiāng yè | [https://www.zdic.net/hans/缃叶](https://www.zdic.net/hans/缃叶) |
+| 缊、韨 | 缊韨 | wēn fú | [https://www.zdic.net/hans/缊韨](https://www.zdic.net/hans/缊韨) |
+| 綪、茷 | 綪茷 | qiàn fá | [https://www.zdic.net/hans/綪茷](https://www.zdic.net/hans/綪茷) |
+| 籥 | 夏籥 | xià yuè | [https://www.zdic.net/hans/夏籥](https://www.zdic.net/hans/夏籥) |
+| 雘 | 丹雘<br />青雘 | dān wò<br />qīng wò | [https://www.zdic.net/hans/丹雘](https://www.zdic.net/hans/丹雘)<br />[https://www.zdic.net/hans/青雘](https://www.zdic.net/hans/青雘) |
+| 緺 | 青緺 | qīng guā | [https://www.zdic.net/hans/青緺](https://www.zdic.net/hans/青緺) |
+| 赪 | 赪紫<br />赪霞<br />赪尾 | chēng zǐ<br />chēng xiá<br />chēng wěi | [https://www.zdic.net/hans/赪](https://www.zdic.net/hans/赪) |
+| 茈 | 茈藐 | zǐ miǎo | [https://www.zdic.net/hans/茈](https://www.zdic.net/hans/茈) |
+| 紶 | 紫紶 | zǐ qū | [https://www.zdic.net/hans/紶](https://www.zdic.net/hans/紶) |
+| 緅、絺 | 緅絺 | zōu chī | [https://www.zdic.net/hans/緅](https://www.zdic.net/hans/緅)<br />[https://www.zdic.net/hans/絺](https://www.zdic.net/hans/絺) |
+| 𬘬 |  |  |  |
+| 𬘬 |  |  |  |
+| 𬘬 |  |  |  |
+| 𬘬 |  |  |  |
+| 𬘬 |  |  |  |
+
+#### 1.1.1.3. ü
+
+因为 **ü** 不好输入，所以采用国家标准 <sup id="a1"><a href="#f1">注1</a></sup>，采用 **yu** 替代 **ü** 。
+即，如“绿”的 **lü** 统一替换为 **lyu** 。
+
+**但次用法仅限于露（lu）、绿（lu）等无法区分的情况，琚（ju）等不会产生歧义的字则不做替换。**
 
 # 2. 安装
 
@@ -194,3 +230,10 @@ const color2 = salorTerm.getColorByName("群青");
 | getRgb | 获得 RGB 值 | 无 | { r: 46, g: 89, b: 167 } |
 | getCmyk | 获得 CMYK 值 | 无 | { c: 85, y: 65, m: 0, k: 0 } |
 | getHexRgb | 获得 16进制数形式的 RGB 值 | 无 | #2E59A7 |
+
+# 参考资料
+
+<span id="f0"><a href="#a0">注0</a></span>：[24节气中英文对照](https://www.cma.gov.cn/2011xzt/essjqzt/jqhz/jqhz02/201312/t20131213_233952.html)
+
+<span id="f1"><a href="#a1">注1</a></span>：[中国人名汉语拼音字母拼写规则](http://www.moe.gov.cn/jyb_sjzl/ziliao/A19/201001/t20100115_75609.html)<br />　　 [“吕”字有了正式英文名“LYU”](http://edu.sina.com.cn/en/2012-10-11/094569768.shtml)
+
