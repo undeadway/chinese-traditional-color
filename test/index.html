@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<script src="../dist/chinese-traditional-color.js"></script>
+</head>
+<body>
+<div id="ctc-box"></div>
+</body>
+<style>
+.soloar-term-box {
+    width: calc(25% - 20px);
+    margin: 10px;
+    display: inline-block;
+}
+
+.color-box {
+    display: inline-block;
+    padding:10px;
+    width: calc(25% - 20px);
+}
+
+.st-title-box {
+    padding:10px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.color-titlt-box {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+</style>
+<script>
+
+const ctcBox = document.getElementById("ctc-box");
+const solorTermList = CTC.getSolarTermList();
+
+for (let i = 0; i < solorTermList.length; i++) {
+    const stObj = solorTermList[i];
+    const stDiv = document.createElement("div");
+    stDiv.id = `#solar-term-${i}`;
+    stDiv.className = "soloar-term-box";
+    // stDiv.innerHTML = 
+
+    const stTtlDiv = document.createElement("div");
+    stTtlDiv.innerHTML = stObj.getName();
+    stTtlDiv.className = "st-title-box";
+
+    stDiv.appendChild(stTtlDiv);
+
+    const colorList = stObj.getColorList();
+
+    for (let j = 0; j < colorList.length; j++) {
+        const colorObj = colorList[j];
+        const colorDiv =  document.createElement("div");
+        colorDiv.id = `color-${j}`;
+        colorDiv.className = "color-box";
+
+        const colorTTlDiv = document.createElement("div");
+        colorTTlDiv.innerHTML = colorObj.getName();
+        colorTTlDiv.className = "color-titlt-box";
+        colorDiv.style.backgroundColor = colorObj.getHexRgb();
+
+        colorDiv.appendChild(colorTTlDiv);
+        stDiv.appendChild(colorDiv);
+    }
+
+    ctcBox.appendChild(stDiv);
+}
+
+</script>
+</html>
