@@ -121,11 +121,6 @@ CTC.AutumnBeginning.qunqing
 | 䵂 | 红䵂 | hóng zhí | hongzhi | [https://www.zdic.net/hans/䵂](https://www.zdic.net/hans/䵂) | 未找到“红䵂”单独成词的的例子 |
 | 驖 | 驖骊 | tiě lí | tieli | [https://www.zdic.net/hans/驖](https://www.zdic.net/hans/驖) | 未找到“驖骊”单独成词的的例子 |
 | 䌦 | 䌦色 | dǎo sè | daose | [https://www.zdic.net/hans/䌦](https://www.zdic.net/hans/䌦) | |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
 
 #### 1.1.1.3. ü
 
@@ -220,7 +215,8 @@ CMYK 则是在普通变量名后面，加入 `-cmyk` 后缀即可。
 <div id="demo">abc</div>
 <script>
 dont demo = document.getElementById("demo");
-const color = CTC.getColorByName("群青");
+const salorTerm = CTC.getSolarTermByName("立秋");
+const color = salorTerm.getColorByName("群青");
 const bgColor = CTC.getColorByName("黄白游");
 demo.css({
 	"color": color.getHexRgb(),
@@ -234,49 +230,50 @@ demo.css({
 
 | API 名称 | 用处 | 参数 | 返回值 |
 | --- | --- | --- | --- |
-| getColorByName | 获得名称获得颜色对象 | 颜色名称（中、英）<br/>1. 中文名（例：群青）<br/>2. 英语名（例：qunqing） | 颜色的对象实例 |
-| getColorMapBySolarTerm | 通过节气的编号或者节气的名称获得某个节气对应的所有颜色 | 参数有以下三种形式：<br/>1. 编号，从 0（立春） 开始<br />2. 中文名（例：立秋）<br />3. 英文名（例：AutumnBeginning） | 颜色对象的集合 |
-| getAllSolarTermCnNameList | 返回所有节气的中文名列表 | 无 | 所有节气中文名的数组，顺序为：立春、雨水、惊蛰... |
-| getAllSolarTermNameList | 返回所哟节气的英文名列表 | 无 | 所有节气名称（命名空间的名称）的数组，顺序为：SringBeginning、RainWater、WakingInsects... |
+| getColorByName | 获得名称获得颜色对象 | 颜色的中文名（例：群青）| 颜色的对象实例<br />如果找不到，则返回 null |
+| getSolarTermByName | 通过节气的编号或者节气的名称获得某个节气的对象 | 参数有以下2种形式：<br/>1. 编号，从 0（立春） 开始<br />2. 名称（例：立春） | 节气名所对应对象的实例<br />如果找不到，则返回 null |
+| getSolarTermList | 返回所有节气的名称列表 | 无 | 所有节气名的数组，顺序为：立春、雨水、惊蛰... |
 
-#### 3.2.2. 节气对象
-
-节气对象是从 CTC 中获得的对象。  
-获得方式如下：
+使用方式：
 
 ```
 const salorTerm = CTC.getSolarTermByName("立秋");
 ```
 
+#### 3.2.2. 节气对象
+
+节气对象是上面的代码中获得到的 `solarTerm` 的对象实例。
+
 ##### 3.2.2.1. API
 
 | API 名称 | 作用 | 参数 | 返回值 |
 | --- | --- | --- | --- |
-| getColorByName | 获得名称获得颜色对象| 颜色名称（中、英）<br/>1. 中文名（例：群青）<br/>2. 英语名（例：qunqing） | 颜色的对象实例 |
-| getColorMapByName | 获得当前节气下的所有颜色 | 无 | 颜色对象的集合 |
+| getName | 获得当前节气的名称 | 无 | 当前节气的名称 |
+| getColorByName | 获得名称获得颜色对象| 颜色的中文名（例：群青） | 颜色的对象实例<br />如果找不到，则返回 null |
+| getColorList | 获得当前节气下的所有颜色的列表 | 无 | 颜色的数组<br />例：黄白游的实例、松花的实例、缃叶的实例... |
+
+使用方式：
+
+```
+const color = solrTerm.getColorByName("群青");
+```
 
 #### 3.2.3. 颜色对象
 
+颜色对象可以分别从 全局对象 CTC 和 节气对象 solarTerm 中获得。
 
-节气对象是从 CTC 中获得的对象。  
 获得方式如下：
 
 ```
-const color1 = CTC.getColorByName("群青");
-```
-
-也可以是从节气对象中，获得方式如下：
-
-```
-const color2 = salorTerm.getColorByName("群青");
+const color1 = CTC.getColorByName("群青"); // 从全局全局对象中获得
+const color2 = salorTerm.getColorByName("群青"); // 从节气对象中获得
 ```
 
 ##### 3.2.3.1. API
 
 | API 名称 | 作用 | 参数 | 返回值 |
 | --- | --- | --- | --- |
-| getCnName | 获得颜色的中文名 | 无 | 颜色的中文名（例：群青） |
-| getName | 获得颜色的英文名 | 无 | 颜色的中文名（例：qunqing） |
+| getName | 获得颜色的名称 | 无 | 颜色的名称（例：群青） |
 | getRgb | 获得 RGB 值 | 无 | { r: 46, g: 89, b: 167 } |
 | getCmyk | 获得 CMYK 值 | 无 | { c: 85, y: 65, m: 0, k: 0 } |
 | getHexRgb | 获得 16进制数形式的 RGB 值 | 无 | #2E59A7 |
