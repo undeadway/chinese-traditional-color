@@ -1755,7 +1755,7 @@
 			},
 			{
 				"name": "yinghua",
-				"cnName": "yinghua",
+				"cnName": "樱花",
 				"value": {
 					"rgb": [ 228, 184, 213 ],
 					"cmyk": [ 10, 35, 0, 0 ]
@@ -2271,7 +2271,7 @@
 				"name": "mituoseng",
 				"cnName": "密陀僧",
 				"value": {
-					"rgb": [ 1798, 147, 75 ],
+					"rgb": [ 179, 147, 75 ],
 					"cmyk": [ 30, 40, 75, 10 ]
 				}
 			}

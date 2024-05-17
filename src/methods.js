@@ -5,6 +5,10 @@ exports = module.exports = {
 		g = Number(g).toString(16).toUpperCase();
 		b = Number(b).toString(16).toUpperCase();
 
+		r = r.padStart(2, "0");
+		g = g.padStart(2, "0");
+		b = b.padStart(2, "0");
+
 		return `${r}${g}${b}`;
 	},
 	createCmyk ({ cmyk: [ c, m, y, k ], rgb: [r, g, b] }) {
