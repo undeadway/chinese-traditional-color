@@ -91,7 +91,7 @@ for (let i = 0; i < solorTermList.length; i++) {
         const { c, m, y, k } = colorObj.getCmyk();
         cmykValBox.innerHTML = `C${c} M${m} Y${y} K${k}`;
 
-        if (colorObj.getBrightness() < 0.4) {
+        if (colorObj.getBrightness() < 0.618) {
             colorDiv.className += " white-font-box";
         }
 
