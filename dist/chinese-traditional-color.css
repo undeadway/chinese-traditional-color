@@ -187,7 +187,7 @@
 	--CTC_SpringEquinox_qingming:#3271AE;
 	--CTC_SpringEquinox_qingming-cmyk:device-cmyk(80% 50% 10% 0% / 1, rgb(50 113 174));
 	/* 颜色：青雘 */
-	--CTC_SpringEquinox_qingwo:#07175;
+	--CTC_SpringEquinox_qingwo:#007175;
 	--CTC_SpringEquinox_qingwo-cmyk:device-cmyk(95% 45% 55% undefined% / 1, rgb(0 113 117));
 	/* 颜色：青緺 */
 	--CTC_SpringEquinox_qinggua:#284852;
@@ -340,7 +340,7 @@
 	--CTC_SummerBeginning_qindan:#E94829;
 	--CTC_SummerBeginning_qindan-cmyk:device-cmyk(0% 85% 85% 0% / 1, rgb(233 72 41));
 	/* 颜色：丹罽 */
-	--CTC_SummerBeginning_danji:#E6012;
+	--CTC_SummerBeginning_danji:#E60012;
 	--CTC_SummerBeginning_danji-cmyk:device-cmyk(0% 100% 100% 0% / 1, rgb(230 0 18));
 	/* 节气：小满 */
 	/* 颜色：彤管 */
@@ -533,10 +533,10 @@
 	--CTC_LesserHeat_bicheng:#12507B;
 	--CTC_LesserHeat_bicheng-cmyk:device-cmyk(90% 65% 30% 15% / 1, rgb(18 80 123));
 	/* 颜色：蓝采和 */
-	--CTC_LesserHeat_lancaihe:#6436F;
+	--CTC_LesserHeat_lancaihe:#06436F;
 	--CTC_LesserHeat_lancaihe-cmyk:device-cmyk(95% 75% 35% 15% / 1, rgb(6 67 111));
 	/* 颜色：帝释青 */
-	--CTC_LesserHeat_dishiqing:#03460;
+	--CTC_LesserHeat_dishiqing:#003460;
 	--CTC_LesserHeat_dishiqing-cmyk:device-cmyk(100% 85% 40% 20% / 1, rgb(0 52 96));
 	/* 节气：大暑 */
 	/* 颜色：夕岚 */
@@ -640,7 +640,7 @@
 	/* 颜色：退红 */
 	--CTC_HeatEnd_tuihong:#F0CFE3;
 	--CTC_HeatEnd_tuihong-cmyk:device-cmyk(5% 25% 0% 0% / 1, rgb(240 207 227));
-	/* 颜色：yinghua */
+	/* 颜色：樱花 */
 	--CTC_HeatEnd_yinghua:#E4B8D5;
 	--CTC_HeatEnd_yinghua-cmyk:device-cmyk(10% 35% 0% 0% / 1, rgb(228 184 213));
 	/* 颜色：丁香 */
@@ -769,7 +769,7 @@
 	--CTC_AutumnEquinox_yushiqing:#32788A;
 	--CTC_AutumnEquinox_yushiqing-cmyk:device-cmyk(80% 45% 40% 0% / 1, rgb(50 120 138));
 	/* 颜色：软翠 */
-	--CTC_AutumnEquinox_ruancui:#06D87;
+	--CTC_AutumnEquinox_ruancui:#006D87;
 	--CTC_AutumnEquinox_ruancui-cmyk:device-cmyk(90% 50% 40% 0% / 1, rgb(0 109 135));
 	/* 颜色：浅云 */
 	--CTC_AutumnEquinox_qianyun:#EAEEF1;
@@ -812,7 +812,7 @@
 	--CTC_ColdDew_dongfangjibai:#8BA3C7;
 	--CTC_ColdDew_dongfangjibai-cmyk:device-cmyk(50% 30% 10% 0% / 1, rgb(139 163 199));
 	/* 颜色：绀宇 */
-	--CTC_ColdDew_ganyu:#03D74;
+	--CTC_ColdDew_ganyu:#003D74;
 	--CTC_ColdDew_ganyu-cmyk:device-cmyk(100% 86% 35% 0% / 1, rgb(0 61 116));
 	/* 颜色：佛头青 */
 	--CTC_ColdDew_fotouqing:#19325F;
@@ -830,8 +830,8 @@
 	--CTC_ColdDew_jianse:#C6A268;
 	--CTC_ColdDew_jianse-cmyk:device-cmyk(20% 35% 60% 10% / 1, rgb(198 162 104));
 	/* 颜色：密陀僧 */
-	--CTC_ColdDew_mituoseng:#706934B;
-	--CTC_ColdDew_mituoseng-cmyk:device-cmyk(30% 40% 75% 10% / 1, rgb(1798 147 75));
+	--CTC_ColdDew_mituoseng:#B3934B;
+	--CTC_ColdDew_mituoseng-cmyk:device-cmyk(30% 40% 75% 10% / 1, rgb(179 147 75));
 	/* 节气：霜降 */
 	/* 颜色：银朱 */
 	--CTC_FrostDescent_yinzhu:#D12920;
@@ -1137,7 +1137,7 @@
 	--CTC_GreaterCold_jieshizi:#602641;
 	--CTC_GreaterCold_jieshizi-cmyk:device-cmyk(60% 90% 55% 35% / 1, rgb(96 38 65));
 	/* 颜色：油紫 */
-	--CTC_GreaterCold_youzi:#42B2F;
+	--CTC_GreaterCold_youzi:#420B2F;
 	--CTC_GreaterCold_youzi-cmyk:device-cmyk(70% 100% 60% 50% / 1, rgb(66 11 47));
 	/* 颜色：骨缥 */
 	--CTC_GreaterCold_gupiao:#EBE3C7;
