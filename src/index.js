@@ -43,6 +43,9 @@ for (const solarTerm of data) {
             },
             getHexRgb () {
                 return `#${methods.rgbToHex(r,g, b)}`;
+            },
+            getBrightness () {
+                return methods.calcBrightness(r, g, b);
             }
         };
 
