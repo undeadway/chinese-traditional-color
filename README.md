@@ -100,11 +100,11 @@ CTC.AutumnBeginning.qunqing
 | 藘 | 茹藘 | rú lǘ | rulyu | [https://www.zdic.net/hans/茹藘](https://www.zdic.net/hans/茹藘) |
 | 饧 | 沙饧 | shā xíng | shaxing | [https://www.zdic.net/hans/沙饧](https://www.zdic.net/hans/沙饧) |
 | 麹 | 麹尘 | qū chén | quchen | [https://www.zdic.net/hans/麴塵](https://www.zdic.net/hans/麴塵) |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
+| 缣 | 缣缃 | jiān xiāng | jianxiang | [https://www.zdic.net/hans/缣缃](https://www.zdic.net/hans/缣缃) |
+| 菼 | 葭菼 | jiā tǎn | jiatan | [https://www.zdic.net/hans/葭菼](https://www.zdic.net/hans/葭菼) |
+| 醽、醁 | 醽醁 | líng lù | linglu | [https://www.zdic.net/hans/醽醁](https://www.zdic.net/hans/醽醁) |
+| 翕 | 翕赩 | xī xì | xixi | [https://www.zdic.net/hans/翕赩](https://www.zdic.net/hans/翕赩) |
+| 韎、韐 | 韎韐 |  mèi gé | meige | [https://www.zdic.net/hans/韎韐](https://www.zdic.net/hans/韎韐) |
 |  |  |  |  |  |
 
 #### 1.1.1.3. ü

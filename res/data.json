@@ -1810,67 +1810,67 @@
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "yunmen",
+				"cnName": "云门",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 162, 210, 226 ],
+					"cmyk": [ 40, 5, 10, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "xizi",
+				"cnName": "西子",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 135, 192, 202 ],
+					"cmyk": [ 50, 10, 20, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "tianshuibi",
+				"cnName": "天水碧",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 90, 164, 174 ],
+					"cmyk": [ 65, 20, 30, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "facui",
+				"cnName": "法翠",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 16, 139, 150 ],
+					"cmyk": [ 80, 30, 40, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "sanglei",
+				"cnName": "桑蕾",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 234, 216, 154 ],
+					"cmyk": [ 10, 15, 45, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "taiyiyuliang",
+				"cnName": "太一余粮",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 213, 180, 92 ],
+					"cmyk": [ 20, 30, 70, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "qiuxiang",
+				"cnName": "秋香",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 191, 156, 70 ],
+					"cmyk": [ 30, 40, 80, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "laofushen",
+				"cnName": "老茯神",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 170, 133, 52 ],
+					"cmyk": [ 40, 50, 90, 0 ]
 				}
 			}
 		]
@@ -1880,131 +1880,131 @@
 		"cnName": "白露",
 		"items": [
 			{
-				"name": "",
-				"cnName": "",
+				"name": "ningzhi",
+				"cnName": "凝脂",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 245, 242, 233 ],
+					"cmyk": [ 5, 5, 10, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "yuse",
+				"cnName": "玉色",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 234, 228, 209 ],
+					"cmyk": [ 10, 10, 20, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "huangrun",
+				"cnName": "黄润",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 223, 214, 184 ],
+					"cmyk": [ 15, 15, 30, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "jianxiang",
+				"cnName": "缣缃",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 213, 200, 160 ],
+					"cmyk": [ 20, 20, 40, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "jiaoyue",
+				"cnName": "蕉月",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 134, 144, 138 ],
+					"cmyk": [ 50, 35, 40, 10 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "qianshancui",
+				"cnName": "千山翠",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 107, 125, 115 ],
+					"cmyk": [ 60, 40, 50, 15 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "jielyu",
+				"cnName": "结绿",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 85, 95, 77 ],
+					"cmyk": [ 70, 55, 70, 20 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "lyuyun",
+				"cnName": "绿云",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 69, 73, 61 ],
+					"cmyk": [ 75, 65, 75, 30 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "ousiqiuban",
+				"cnName": "藕丝秋半",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 211, 203, 197 ],
+					"cmyk": [ 20, 20, 20, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "cangyanluozhao",
+				"cnName": "苍烟落照",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 200, 181, 179 ],
+					"cmyk": [ 25, 30, 25, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "hongtengzhang",
+				"cnName": "红藤杖",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 146, 129, 135 ],
+					"cmyk": [ 50, 50, 40, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "zishu",
+				"cnName": "紫鼠",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 89, 76, 87 ],
+					"cmyk": [ 65, 65, 50, 30 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "huangliang",
+				"cnName": "黄粱",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 196, 183, 152 ],
+					"cmyk": [ 25, 25, 40, 5 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "zhengli",
+				"cnName": "蒸栗",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 165, 138, 95 ],
+					"cmyk": [ 40, 45, 65, 5 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "shegan",
+				"cnName": "射干",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 124, 98, 63 ],
+					"cmyk": [ 55, 60, 80, 15 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "youhulu",
+				"cnName": "油葫芦",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 100, 77, 49 ],
+					"cmyk": [ 65, 70, 90, 20 ]
 				}
 			}
 		]
@@ -2014,131 +2014,131 @@
 		"cnName": "秋分",
 		"items": [
 			{
-				"name": "",
-				"cnName": "",
+				"name": "luanse",
+				"cnName": "卵色",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 213, 227, 212 ],
+					"cmyk": [ 20, 5, 20, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "jiatan",
+				"cnName": "葭菼",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 202, 215, 197 ],
+					"cmyk": [ 25, 10, 25, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "bingtai",
+				"cnName": "冰台",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 190, 202, 183 ],
+					"cmyk": [ 30, 15, 30, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "qinggu",
+				"cnName": "青古",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 179, 189, 169 ],
+					"cmyk": [ 35, 20, 35, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "luanhua",
+				"cnName": "栾华",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 192, 173, 94 ],
+					"cmyk": [ 30, 30, 70, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "dachi",
+				"cnName": "大赤",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 170, 150, 73 ],
+					"cmyk": [ 40, 40, 80, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "fochi",
+				"cnName": "佛赤",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 143, 61, 44 ],
+					"cmyk": [ 45, 85, 90, 15 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "mihe",
+				"cnName": "蜜褐",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 104, 54, 50 ],
+					"cmyk": [ 44, 80, 75, 35 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "kongquelan",
+				"cnName": "孔雀蓝",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 234, 148, 196 ],
+					"cmyk": [ 70, 30, 10, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "tushoulan",
+				"cnName": "吐绶蓝",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 65, 130, 164 ],
+					"cmyk": [ 75, 40, 25, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "yushiqing",
+				"cnName": "鱼师青",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 50, 120, 138 ],
+					"cmyk": [ 80, 45, 40, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "ruancui",
+				"cnName": "软翠",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 0, 109, 135 ],
+					"cmyk": [ 90, 50, 40, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "qianyun",
+				"cnName": "浅云",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 234, 238, 241 ],
+					"cmyk": [ 10, 5, 5, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "sucai",
+				"cnName": "素采",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 212, 221, 225 ],
+					"cmyk": [ 20, 10, 10, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "yingqing",
+				"cnName": "影青",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 189, 203, 210 ],
+					"cmyk": [ 30, 15, 15, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "xiaoyaoyou",
+				"cnName": "逍遥游",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 178, 191, 195 ],
+					"cmyk": [ 35, 20, 20, 0 ]
 				}
 			}
 		]
@@ -2148,131 +2148,131 @@
 		"cnName": "寒露",
 		"items": [
 			{
-				"name": "",
-				"cnName": "",
+				"name": "linglu",
+				"cnName": "醽醁",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 166, 186, 177 ],
+					"cmyk": [ 40, 20, 30, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "cuitao",
+				"cnName": "翠涛",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 129, 157, 142 ],
+					"cmyk": [ 55, 30, 45, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "qingmei",
+				"cnName": "青梅",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 119, 138, 119 ],
+					"cmyk": [ 60, 40, 55, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "xixi",
+				"cnName": "翕赩",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 95, 118, 106 ],
+					"cmyk": [ 60, 50, 60, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "jiujinhuang",
+				"cnName": "九斤黄",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 221, 176, 120 ],
+					"cmyk": [ 15, 35, 55, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "xingzi",
+				"cnName": "杏子",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 218, 156, 51 ],
+					"cmyk": [ 15, 50, 85, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "meidie",
+				"cnName": "媚蝶",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 188, 110, 55 ],
+					"cmyk": [ 30, 65, 85, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "meige",
+				"cnName": "韎韐",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 159, 82, 33 ],
+					"cmyk": [ 40, 75, 100, 10 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "dongfangjibai",
+				"cnName": "东方既白",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 139, 163, 199 ],
+					"cmyk": [ 50, 30, 10, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "ganyu",
+				"cnName": "绀宇",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 0, 61, 116 ],
+					"cmyk": [ 100, 86, 35, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "fotouqing",
+				"cnName": "佛头青",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 25, 50, 95 ],
+					"cmyk": [ 100, 95, 50, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "huaqing",
+				"cnName": "花青",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 26, 40, 71 ],
+					"cmyk": [ 100, 100, 65, 15 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "fukenhong",
+				"cnName": "弗肯红",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 236, 217, 199 ],
+					"cmyk": [ 5, 15, 20, 5 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "chizhang",
+				"cnName": "赤璋",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 225, 193, 153 ],
+					"cmyk": [ 10, 25, 40, 5 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "jianse",
+				"cnName": "茧色",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 198, 162, 104 ],
+					"cmyk": [ 20, 35, 60, 10 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "mituoseng",
+				"cnName": "密陀僧",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 1798, 147, 75 ],
+					"cmyk": [ 30, 40, 75, 10 ]
 				}
 			}
 		]
@@ -2282,131 +2282,131 @@
 		"cnName": "霜降",
 		"items": [
 			{
-				"name": "",
-				"cnName": "",
+				"name": "yinzhu",
+				"cnName": "银朱",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 209, 41, 32 ],
+					"cmyk": [ 15, 95, 95, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "yanzhichong",
+				"cnName": "胭脂虫",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 171, 29, 34 ],
+					"cmyk": [ 35, 100, 100, 5 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "zhuying",
+				"cnName": "朱樱",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 143, 29, 34 ],
+					"cmyk": [ 45, 100, 100, 15 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "juetou",
+				"cnName": "爵头",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 99, 18, 22 ],
+					"cmyk": [ 55, 100, 100, 40 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "ganshi",
+				"cnName": "甘石",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 189, 178, 178 ],
+					"cmyk": [ 30, 30, 25, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "milouhui",
+				"cnName": "迷楼灰",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 145, 130, 143 ],
+					"cmyk": [ 50, 50, 35, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "yachu",
+				"cnName": "鸦雏",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 106, 91, 109 ],
+					"cmyk": [ 65, 65, 45, 10 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "yanmo",
+				"cnName": "烟墨",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 92, 79, 85 ],
+					"cmyk": [ 70, 70, 60, 15 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "shiyangjin",
+				"cnName": "十样锦",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 248, 198, 181 ],
+					"cmyk": [ 0, 30, 25, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "tanchun",
+				"cnName": "檀唇",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 218, 158, 140 ],
+					"cmyk": [ 15, 45, 40, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "qiongju",
+				"cnName": "琼琚",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 215, 127, 102 ],
+					"cmyk": [ 15, 60, 55, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "tangli",
+				"cnName": "棠梨",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 177, 90, 67 ],
+					"cmyk": [ 35, 75, 75, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "mihe",
+				"cnName": "蜜合",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 223, 215, 194 ],
+					"cmyk": [ 15, 15, 25, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "jiashannan",
+				"cnName": "假山南",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 212, 193, 166 ],
+					"cmyk": [ 20, 25, 35, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "zihuabu",
+				"cnName": "紫花布",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 190, 167, 139 ],
+					"cmyk": [ 30, 35, 45, 0 ]
 				}
 			},
 			{
-				"name": "",
-				"cnName": "",
+				"name": "chenxiang",
+				"cnName": "沉香",
 				"value": {
-					"rgb": [  ],
-					"cmyk": [  ]
+					"rgb": [ 153, 128, 108 ],
+					"cmyk": [ 45, 50, 55, 5 ]
 				}
 			}
 		]
