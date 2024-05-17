@@ -11,10 +11,13 @@
 #ctc-box {
     width: 2880px;
 }
+
+.row-box {
+    display: inline-block;
+}
 .soloar-term-box {
     width: 700px;
     margin: 10px;
-    display: inline-block;
 }
 
 .color-box {
@@ -34,18 +37,32 @@
     font-size: 16px;
 }
 
+.white-font-box {
+    color: #FFFFFF;
+}
+
 </style>
 <script>
 
 const ctcBox = document.getElementById("ctc-box");
 const solorTermList = CTC.getSolarTermList();
 
+let rowDiv = null;
+
 for (let i = 0; i < solorTermList.length; i++) {
     const stObj = solorTermList[i];
     const stDiv = document.createElement("div");
     stDiv.id = `#solar-term-${i}`;
     stDiv.className = "soloar-term-box";
-    // stDiv.innerHTML = 
+
+    if (i % 6 === 0) {
+        if (i > 0) {
+            ctcBox.appendChild(rowDiv);
+            rowDiv = null;
+        }
+        rowDiv = document.createElement("div");
+        rowDiv.className = "row-box";
+    }
 
     const stTtlDiv = document.createElement("div");
     stTtlDiv.innerHTML = stObj.getName();
@@ -74,14 +91,18 @@ for (let i = 0; i < solorTermList.length; i++) {
         const { c, m, y, k } = colorObj.getCmyk();
         cmykValBox.innerHTML = `C${c} M${m} Y${y} K${k}`;
 
+        if (colorObj.getBrightness() < 0.4) {
+            colorDiv.className += " white-font-box";
+        }
+
         colorDiv.appendChild(colorTTlDiv);
         colorDiv.appendChild(rgbValBox);
         colorDiv.appendChild(cmykValBox);
         stDiv.appendChild(colorDiv);
     }
-
-    ctcBox.appendChild(stDiv);
+    rowDiv.appendChild(stDiv);
 }
+ctcBox.appendChild(rowDiv);
 
 </script>
 </html>
