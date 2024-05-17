@@ -1080,7 +1080,7 @@
 	/* 节气：小寒 */
 	/* 颜色：酂白 */
 	--CTC_LesserCold_zanbai:#F6F9E4;
-	--CTC_LesserCold_zanbai-cmyk:device-cmyk(5% 0% 15% undefined% / 1, rgb(246 249 228));
+	--CTC_LesserCold_zanbai-cmyk:device-cmyk(5% 0% 15% 0% / 1, rgb(246 249 228));
 	/* 颜色：断肠 */
 	--CTC_LesserCold_duanchang:#ECEBC2;
 	--CTC_LesserCold_duanchang-cmyk:device-cmyk(10% 5% 30% 0% / 1, rgb(236 235 194));
