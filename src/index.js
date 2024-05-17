@@ -14,8 +14,8 @@ for (const solarTerm of data) {
         getName () {
             return cnName;
         },
-        getColorByName (colorName) {
-            return colorMap[colorName] || null;;
+        getColor (condition) {
+            return colorMap[condition] || colorList[condition] || null;;
         },
         getColorList () {
             return colorList;
@@ -55,10 +55,10 @@ exports = module.exports = {
     getColorByName (colorName) {
         return colorMap[colorName] || null;
     },
-    getSolarTermByName (solrTermName) {
-        return solarTermMap[solrTermName] || null;
+    getSolarTerm (condition) {
+        return solarTermMap[condition] || solarTermsList [condition] || null;
     },
     getSolarTermList () {
-        return [].concat(solarTermsList);
+        return solarTermsList;
     }
 }
