@@ -1,5 +1,5 @@
 const fs = require("fs");
-const methods = require("./methods");
+const methods = require("./../src/methods");
 const data = require("./../res/data.json");
 
 const vals = [];
