@@ -10,6 +10,8 @@ function case1 () {
         "立秋", "处暑", "白露", "秋分", "寒露", "霜降",
         "立冬", "小雪", "大雪", "冬至", "小寒", "大寒" ];
 
+    console.log("========== case 1 ==========");
+
     for (let i = 0; i < solarTermValList.length; i++) {
     const solarTerm1 = CTC.getSolarTerm(i);
     const solarTermName = solarTermValList[i];
@@ -19,7 +21,11 @@ function case1 () {
     }
 }
 
+/*
+ * 测试2. 测试通过列表 和 名称取出的 solar Tarm 是否一致
+ */
 function case2() {
+    console.log("========== case 2 ==========");
     const solarTermList = CTC.getSolarTermList();
     for (const solarTerm of solarTermList) {
         const solarTermName= solarTerm.getName();
@@ -29,28 +35,29 @@ function case2() {
     }
 }
 
-    const xxx = [
-
-    ];
-
-
+/*
+ * 测试3. 测试每个节气的RGB 值和预设的值是否一直
+ */
 function testCase(rgbs, index) {
-    console.log("===================");
     const solarTerm = CTC.getSolarTerm(index);
 
     const colorList = solarTerm.getColorList();
+    console.log("========== case ", index + 3, solarTerm.getName(), "==========");
 
     for (let i = 0; i < colorList.length; i++) {
         const color = colorList[i];
 
-        const hex1 = "#" + method.rgbToHex(... rgbs[i]);
-        const hex2 = color.getHexRgb();
+        const [ r, g, b ] = rgbs[i];
 
-        console.log(index, solarTerm.getName(), i, color.getName(), hex1, hex2, hex1 === hex2);
+        const hex1 = JSON.stringify({ r, g, b });
+        const hex2 = JSON.stringify(color.getRgb());
+
+        console.log(i, color.getName(), hex1, hex1 === hex2);
     }
 }
 
 case1();
+
 case2();
 
 testCase([
