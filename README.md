@@ -68,7 +68,7 @@ CSS 的格式：`--CTC_节气_颜色名`
 
 | 多音字 | 涉及颜色名 | 拼音 | 变量名 | 参考来源 | 备注 |
 | --- | --- | --- | --- | --- | --- |
-| 曾 | 曾青 | zénɡ qīnɡ<br /> cénɡ qīnɡ  | zengqing |[https://www.zdic.net/hans/曾青](https://www.zdic.net/hans/曾青)<br />[https://www.zysj.com.cn/zhongyaocai/cengqing/index.html](https://www.zysj.com.cn/zhongyaocai/cengqing/index.html) | 因为从两个地方查出了两种读法，所以暂时以第一种作为变量名 |
+| 曾 | 曾青 | zénɡ qīnɡ<br /> cénɡ qīnɡ  | zengqing |[https://www.zdic.net/hans/曾青](https://www.zdic.net/hans/曾青)<br />[https://www.zysj.com.cn/zhongyaocai/cengqing](https://www.zysj.com.cn/zhongyaocai/cengqing) | 因为从两个地方查出了两种读法，所以暂时以第一种作为变量名 |
 | 壳 | 栗壳 | lì ké | like | | |
 | 校 | 玄校 | xuán xiào  | xuanxiao |[https://www.zdic.net/hans/玄校](https://www.zdic.net/hans/玄校) | |
 
