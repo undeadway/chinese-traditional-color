@@ -52,7 +52,8 @@ CSS 的格式：`--CTC_节气_颜色名`
 --CTC_AutumnBeginning_qunqing
 ```
 
-JS 请参阅 API 的使用。
+**JS 请参阅 API 的使用。**
+
 
 ### 1.1.1. 关于读音
 
