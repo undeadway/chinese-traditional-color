@@ -186,7 +186,7 @@ window.CTC = CTC;
 
 ### 3.1.1. CMYK
 
-CTC 通过 `device-cmyk` 来支持 CMYK  <sup id="a2"><a href="#f2">注2</a></sup>。  
+CTC 通过 `device-cmyk` 来支持 CMYK <sup id="a2"><a href="#f2">注2</a></sup>。  
 
 **所以，在使用 CMYK 模式前，请确认您的系统是否支持 `device-cmyk` 。**
 
@@ -277,6 +277,7 @@ const color2 = salorTerm.getColorByName("群青"); // 从节气对象中获得
 | getRgb | 获得 RGB 值 | 无 | { r: 46, g: 89, b: 167 } |
 | getCmyk | 获得 CMYK 值 | 无 | { c: 85, y: 65, m: 0, k: 0 } |
 | getHexRgb | 获得 16进制数形式的 RGB 值 | 无 | #2E59A7 |
+| getBrightness | 计算颜色的明度值 | 无 | 通过 RGB 明度计算公式 <sup id="a3"><a href="#f3">注3</a></sup> 来计算颜色的明度值 |
 
 # 参考资料
 
@@ -286,3 +287,5 @@ const color2 = salorTerm.getColorByName("群青"); // 从节气对象中获得
 
 <span id="f2"><a href="#a2">注2</a></span>：[https://developer.mozilla.org/zh-CN/docs/Web/CSS/color_value/device-cmyk](https://developer.mozilla.org/zh-CN/docs/Web/CSS/color_value/device-cmyk)
 
+
+<span id="f3"><a href="#a3">注3</a></span>：![](./doc/Brightness_Calculation_Formula.svg)
