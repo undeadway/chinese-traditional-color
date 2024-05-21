@@ -85,7 +85,7 @@ CSS 的格式：`--CTC_节气_颜色名`
 | 缊、韨 | 缊韨 | wēn fú | wenfu | [https://www.zdic.net/hans/缊韨](https://www.zdic.net/hans/缊韨) | |
 | 綪、茷 | 綪茷 | qiàn fá | qianfa | [https://www.zdic.net/hans/綪茷](https://www.zdic.net/hans/綪茷) | |
 | 籥 | 夏籥 | xià yuè | xiayue | [https://www.zdic.net/hans/夏籥](https://www.zdic.net/hans/夏籥) | |
-| 雘 | 丹雘<br />青雘 | dān wò<br />qīng wò | danwo<br />qingwo | [https://www.zdic.net/hans/丹雘](https://www.zdic.net/hans/丹雘)<br />[https://www.zdic.net/hans/青雘](https://www.zdic.net/hans/青雘) | |
+| 雘 | 丹雘<br />青雘 | dān huò<br />qīng huò | danhuo<br />qinghuo | [https://www.zdic.net/hans/丹雘](https://www.zdic.net/hans/丹雘)<br />[https://www.zdic.net/hans/青雘](https://www.zdic.net/hans/青雘) | 从参考资料来看，丹雘和青雘分别读 `dān wò` 和 `qīng wò` ，但无论从别的地方查还是从单字发音一致性考虑，都把**雘**字的读音定为`huò` |
 | 緺 | 青緺 | qīng guā | qinggua | [https://www.zdic.net/hans/青緺](https://www.zdic.net/hans/青緺) | |
 | 赪 | 赪紫<br />赪霞<br />赪尾 | chēng zǐ<br />chēng xiá<br />chēng wěi | chengzi<br />chengxia<br />chengwei | [https://www.zdic.net/hans/赪](https://www.zdic.net/hans/赪)<br />[https://www.zdic.net/hans/赪霞](https://www.zdic.net/hans/赪霞)<br />[https://www.zdic.net/hans/赪尾](https://www.zdic.net/hans/赪尾) | 未找到“赪紫”单独成词的的例子 |
 | 茈 | 茈藐 | zǐ miǎo | zimiao | [https://www.zdic.net/hans/茈](https://www.zdic.net/hans/茈) | 未找到“茈藐”单独成词的的例子 |
