@@ -344,8 +344,8 @@
 	--CTC_SummerBeginning_danji-cmyk:device-cmyk(0% 100% 100% 0% / 1, rgb(230 0 18));
 	/* 节气：小满 */
 	/* 颜色：彤管 */
-	--CTC_LesserFullness_tongguan:#74A2AC;
-	--CTC_LesserFullness_tongguan-cmyk:device-cmyk(10% 45% 20% 0% / 1, rgb(116 162 172));
+	--CTC_LesserFullness_tongguan:#E2A2AC;
+	--CTC_LesserFullness_tongguan-cmyk:device-cmyk(10% 45% 20% 0% / 1, rgb(226 162 172));
 	/* 颜色：渥赭 */
 	--CTC_LesserFullness_wozhe:#DD6B7B;
 	--CTC_LesserFullness_wozhe-cmyk:device-cmyk(10% 70% 35% 0% / 1, rgb(221 107 123));
