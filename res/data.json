@@ -486,7 +486,7 @@
 				}
 			},
 			{
-				"name": "danwo",
+				"name": "danhuo",
 				"cnName": "丹雘",
 				"value": {
 					"rgb": [ 200, 22, 29 ],
@@ -510,7 +510,7 @@
 				}
 			},
 			{
-				"name": "qingwo",
+				"name": "qinghuo",
 				"cnName": "青雘",
 				"value": {
 					"rgb": [ 0, 113, 117 ],
