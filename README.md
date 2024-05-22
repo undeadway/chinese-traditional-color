@@ -269,7 +269,8 @@ const salorTerm = CTC.getSolarTermByName("立秋");
 
 | API 名称 | 作用 | 参数 | 返回值 |
 | --- | --- | --- | --- |
-| getName | 获得当前节气的名称 | 无 | 当前节气的名称 |
+| getCnName | 获得当前节气的名称 | 无 | 当前节气的名称（例：立秋） |
+| getEnName | 获得当前节气的名称（变量名） | 无 | 当前节气的名称（例：AutumnBeginning） |
 | getColor | 获得名称获得颜色对象| 参数有以下2种形式：<br/>1. 编号，从 0（当前节气的第一个颜色） 开始<br />2. 名称（例：群青） | 颜色的对象实例<br />如果找不到，则返回 null |
 | getColorList | 获得当前节气下的所有颜色的列表 | 无 | 颜色的数组<br />例：黄白游的实例、松花的实例、缃叶的实例... |
 
@@ -294,7 +295,8 @@ const color2 = salorTerm.getColorByName("群青"); // 从节气对象中获得
 
 | API 名称 | 作用 | 参数 | 返回值 |
 | --- | --- | --- | --- |
-| getName | 获得颜色的名称 | 无 | 颜色的名称（例：群青） |
+| getCnName | 获得颜色的中文名称 | 无 | 颜色的名称（例：群青） |
+| getEnName | 获得颜色的英文名称（变量名） | 无 | 颜色的名称（例：qunqing） |
 | getRgb | 获得 RGB 值 | 无 | { r: 46, g: 89, b: 167 } |
 | getCmyk | 获得 CMYK 值 | 无 | { c: 85, y: 65, m: 0, k: 0 } |
 | getHexRgb | 获得 16进制数形式的 RGB 值 | 无 | #2E59A7 |

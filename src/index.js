@@ -7,12 +7,15 @@ const solarTermsList = [];
 
 for (const solarTerm of data) {
 
-    const { cnName, items } = solarTerm;
+    const { cnName, name, items } = solarTerm;
     const colorList = [];
 
     const solarTermObj = {
-        getName () {
+        getCnName () {
             return cnName;
+        },
+        getEnName () {
+            return name;
         },
         getColor (condition) {
             return colorMap[condition] || colorList[condition] || null;;
@@ -32,8 +35,11 @@ for (const solarTerm of data) {
             toString () {
                 return `${color.cnName} #${methods.rgbToHex(r,g, b)}`;
             },
-            getName () {
+            getCnName () {
                 return color.cnName;
+            },
+            getEnName () {
+                return color.name;
             },
             getRgb () {
                 return { r, g, b };

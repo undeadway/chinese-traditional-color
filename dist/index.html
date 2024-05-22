@@ -66,7 +66,7 @@ for (let i = 0; i < solorTermList.length; i++) {
     }
 
     const stTtlDiv = document.createElement("div");
-    stTtlDiv.innerHTML = stObj.getName();
+    stTtlDiv.innerHTML = `${stObj.getCnName()}（${stObj.getEnName()}）`;
     stTtlDiv.className = "st-title-box";
 
     stDiv.appendChild(stTtlDiv);
@@ -80,7 +80,7 @@ for (let i = 0; i < solorTermList.length; i++) {
         colorDiv.className = "color-box";
 
         const colorTTlDiv = document.createElement("div");
-        colorTTlDiv.innerHTML = colorObj.getName();
+        colorTTlDiv.innerHTML = `${colorObj.getCnName()}（${colorObj.getEnName()}）`;
         colorTTlDiv.className = "color-titlt-box";
         colorDiv.style.backgroundColor = colorObj.getHexRgb();
 
