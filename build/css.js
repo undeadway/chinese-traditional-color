@@ -15,17 +15,25 @@ for (const item of data) {
 		const cmyk = methods.createCmyk(color.value);
 		const cssName = `CTC_${name}_${color.name}`;
 
+		const rgbVal = `$${cssName}:#${rgb};`;
+		const cmykVal = `$${cssName}-cmyk:${cmyk};`;
 
 		vals.push(`/* 颜色：${color.cnName} */`);
-		exportsVals.push(`	${cssName}: #${rgb};`);
-		exportsVals.push(`	${cssName}-cmyk: ${cmyk};`);
+		vals.push(rgbVal);
+		vals.push(cmykVal);
+
+		exportsVals.push(`/* 颜色：${color.cnName} */`);
+		exportsVals.push(`	${cssName}: $${cssName};`);
+		exportsVals.push(`	${cssName}-cmyk: $${cssName}-cmyk;`);
 	}
 }
 
-const file = `:export {
+const file = `${vals.join("\r\n")}
+
+:export {
 ${exportsVals.join("\r\n")}
 }`;
-const fileName = `${__dirname}/../dist/chinese-traditional-color.css`;
+const fileName = `${__dirname}/../dist/chinese-traditional-color.scss`;
 fs.writeFileSync(fileName, file);
 
 // const result = sass.compileString(input);
