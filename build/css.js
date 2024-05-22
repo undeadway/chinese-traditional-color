@@ -2,6 +2,8 @@ const fs = require("fs");
 const methods = require("./../src/methods");
 const data = require("./../res/data.json");
 
+const sass = require("sass");
+
 const vals = [];
 
 for (const item of data) {
@@ -22,5 +24,8 @@ for (const item of data) {
 }
 
 const file = `${vals.join("\r\n")}`;
+const fileName = `${__dirname}/../dist/chinese-traditional-color.scss`;
+fs.writeFileSync(fileName, file);
 
-fs.writeFileSync(`${__dirname}/../dist/chinese-traditional-color.scss`, file);
+const result = sass.compileString(input);
+console.log(result.css);
