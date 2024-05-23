@@ -5,6 +5,7 @@
   "private": false,
   "license": "Apache-2.0",
   "author": "hzwaygc@gmail.com",
+  "main": "./src/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/undeadway/chinese-traditional-color.git"
