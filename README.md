@@ -54,7 +54,6 @@ CTC_AutumnBeginning_qunqing
 
 **JS 请参阅 API 的使用。**
 
-
 ### 1.1.1. 关于读音
 
 因为这里的颜色名都是从书上抄下来的，具体怎么读我也不清楚。  
@@ -144,16 +143,13 @@ CTC_AutumnBeginning_qunqing
 
 ## 2.2. npm
 
-1、npm 安装 chinese-traditional-color
 ```
 npm install chinese-traditional-color
 ```
 
 # 3. 使用
 
-## 3.1. CSS
-
-### 3.1.1. 浏览器中直接使用
+### 3.1. 浏览器中直接使用
 
 直接在 html 文件中使用相关名称引用即可。
 
@@ -161,10 +157,12 @@ npm install chinese-traditional-color
 <html>
 <div class="demo">abc</div>
 <script>
+// JS
 const color = CTC.getColorByName("群青");
 console.log(color.getHexRgb()); // #2E59A7
 </script>
 <style>
+/* CSS */
 .demo {
 	color: var(--CTC_AutumnBeginning_qunqing);
 	background:var(--CTC_SringBeginning_huangbaiyou);
@@ -173,7 +171,7 @@ console.log(color.getHexRgb()); // #2E59A7
 </html>
 ```
 
-### 3.1.1. NPM 中使用
+### 3.2. NPM 中使用
 
 1、直接使用 CSS
 
@@ -212,7 +210,7 @@ const color = CTC.getColorByName("群青");
 console.log(color.getHexRgb()); // #2E59A7
 ```
 
-### 3.2. CMYK
+### 3.3. CMYK
 
 CTC 通过 `device-cmyk` 来支持 CMYK <sup id="a2"><a href="#f2">注2</a></sup>。  
 
@@ -224,7 +222,7 @@ CMYK 则是在普通变量名后面，加入 `-cmyk` 后缀即可。
 	color: var(--CTC_AutumnBeginning_qunqing-cmyk);
 ```
 
-### 3.2.1. 补充
+### 3.3.1. 补充
 
 所有颜色的测试和验证，均以 RGB 值为准。  
 因为 RGB 和 CMYK 无法一一对应，加上从网上找到的各种 CMYK 和 RGB 之间的换算，几乎都是同一套公式的变形。
@@ -248,14 +246,14 @@ B = 255×（1- Y / 100）×（1- K / 100）
 决定对 CMKY 只提供读取功能，不提供任何转换、变化等操作。  
 只对 CMYK 的值进行确认（没有输入错误）。
 
-## 3.3. JS
+## 3.4. JS API
 
 所有对象都挂载在 CTC 对象下。  
 需要通过 CTC 来引用。
 
-### 3.3.1. 全局对象
+### 3.4.1. 全局对象
 
-#### 3.3.1.1. 说明
+#### 3.4.1.1. 说明
 
 全局对象，即 CTC 。
 
@@ -278,7 +276,7 @@ demo.css({
 </html>
 ```
 
-#### 3.3.1.2. API
+#### 3.4.1.2. API
 
 | API 名称 | 用处 | 参数 | 返回值 |
 | --- | --- | --- | --- |
@@ -292,11 +290,11 @@ demo.css({
 const salorTerm = CTC.getSolarTermByName("立秋");
 ```
 
-#### 3.3.2. 节气对象
+#### 3.4.2. 节气对象
 
 节气对象是上面的代码中获得到的 `solarTerm` 的对象实例。
 
-##### 3.3.2.1. API
+##### 3.4.2.1. API
 
 | API 名称 | 作用 | 参数 | 返回值 |
 | --- | --- | --- | --- |
@@ -311,7 +309,7 @@ const salorTerm = CTC.getSolarTermByName("立秋");
 const color = solrTerm.getColorByName("群青");
 ```
 
-#### 3.3.3. 颜色对象
+#### 3.4.3. 颜色对象
 
 颜色对象可以分别从 全局对象 CTC 和 节气对象 solarTerm 中获得。
 
@@ -322,7 +320,7 @@ const color1 = CTC.getColorByName("群青"); // 从全局全局对象中获得
 const color2 = salorTerm.getColorByName("群青"); // 从节气对象中获得
 ```
 
-##### 3.3.3.1. API
+##### 3.4.3.1. API
 
 | API 名称 | 作用 | 参数 | 返回值 |
 | --- | --- | --- | --- |
