@@ -45,11 +45,11 @@
 再加上`CTC` 命名空间（前缀），构成完整的名称。  
 CTC 即 **C**hinese **T**radtional **C**olor 的缩写。
 
-CSS 的格式：`--CTC_节气_颜色名`
+CSS 的格式：`CTC_节气_颜色名`
 
 例：
 ```
---CTC_AutumnBeginning_qunqing
+CTC_AutumnBeginning_qunqing
 ```
 
 **JS 请参阅 API 的使用。**
@@ -149,29 +149,21 @@ CSS 的格式：`--CTC_节气_颜色名`
 npm install chinese-traditional-color
 ```
 
-2、导入相关代码
-
-CSS：
-```
-import 'chinese-traditional-color/dist/index.css';
-```
-
-JS：
-
-```
-import CTC from "chinese-traditional-color";
-window.CTC = CTC;
-```
-
 # 3. 使用
 
 ## 3.1. CSS
+
+### 3.1.1. 浏览器中直接使用
 
 直接在 html 文件中使用相关名称引用即可。
 
 ```
 <html>
 <div class="demo">abc</div>
+<script>
+const color = CTC.getColorByName("群青");
+console.log(color.getHexRgb()); // #2E59A7
+</script>
 <style>
 .demo {
 	color: var(--CTC_AutumnBeginning_qunqing);
@@ -181,7 +173,46 @@ window.CTC = CTC;
 </html>
 ```
 
-### 3.1.1. CMYK
+### 3.1.1. NPM 中使用
+
+1、直接使用 CSS
+
+npm 中可以直接导入 CSS 文件，如下所示：
+
+```
+import 'chinese-traditional-color/dist/index.scss';
+```
+
+然后使用方式就如浏览器中一致。
+
+2、通过 SCSS 来使用
+
+也可以通过 SCSS 来使用，导入方式换成下面的所示。  
+在 SCSS 文件中引入：
+
+```
+@import 'chinese-traditional-color/dist/index.scss';
+```
+
+然后直接使用定义好的变量。
+
+```
+.demo {
+	color: $CTC_AutumnBeginning_qunqing;
+	background: $CTC_SringBeginning_huangbaiyou;
+}
+```
+
+3、通过 JS 来调用
+
+```
+import CTC from "chinese-traditional-color";
+
+const color = CTC.getColorByName("群青");
+console.log(color.getHexRgb()); // #2E59A7
+```
+
+### 3.2. CMYK
 
 CTC 通过 `device-cmyk` 来支持 CMYK <sup id="a2"><a href="#f2">注2</a></sup>。  
 
@@ -193,7 +224,7 @@ CMYK 则是在普通变量名后面，加入 `-cmyk` 后缀即可。
 	color: var(--CTC_AutumnBeginning_qunqing-cmyk);
 ```
 
-### 3.1.1.1. 补充
+### 3.2.1. 补充
 
 所有颜色的测试和验证，均以 RGB 值为准。  
 因为 RGB 和 CMYK 无法一一对应，加上从网上找到的各种 CMYK 和 RGB 之间的换算，几乎都是同一套公式的变形。
@@ -217,14 +248,14 @@ B = 255×（1- Y / 100）×（1- K / 100）
 决定对 CMKY 只提供读取功能，不提供任何转换、变化等操作。  
 只对 CMYK 的值进行确认（没有输入错误）。
 
-## 3.2. JS
+## 3.3. JS
 
 所有对象都挂载在 CTC 对象下。  
 需要通过 CTC 来引用。
 
-### 3.2.1. 全局对象
+### 3.3.1. 全局对象
 
-#### 3.2.1.1. 说明
+#### 3.3.1.1. 说明
 
 全局对象，即 CTC 。
 
@@ -247,7 +278,7 @@ demo.css({
 </html>
 ```
 
-#### 3.2.1.2. API
+#### 3.3.1.2. API
 
 | API 名称 | 用处 | 参数 | 返回值 |
 | --- | --- | --- | --- |
@@ -261,11 +292,11 @@ demo.css({
 const salorTerm = CTC.getSolarTermByName("立秋");
 ```
 
-#### 3.2.2. 节气对象
+#### 3.3.2. 节气对象
 
 节气对象是上面的代码中获得到的 `solarTerm` 的对象实例。
 
-##### 3.2.2.1. API
+##### 3.3.2.1. API
 
 | API 名称 | 作用 | 参数 | 返回值 |
 | --- | --- | --- | --- |
@@ -280,7 +311,7 @@ const salorTerm = CTC.getSolarTermByName("立秋");
 const color = solrTerm.getColorByName("群青");
 ```
 
-#### 3.2.3. 颜色对象
+#### 3.3.3. 颜色对象
 
 颜色对象可以分别从 全局对象 CTC 和 节气对象 solarTerm 中获得。
 
@@ -291,7 +322,7 @@ const color1 = CTC.getColorByName("群青"); // 从全局全局对象中获得
 const color2 = salorTerm.getColorByName("群青"); // 从节气对象中获得
 ```
 
-##### 3.2.3.1. API
+##### 3.3.3.1. API
 
 | API 名称 | 作用 | 参数 | 返回值 |
 | --- | --- | --- | --- |
