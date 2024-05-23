@@ -1,6 +1,6 @@
 # 1. 说明
 
-![](./doc/book-cover.jpg)
+![](./doc/book-cover.jpg?raw=true)
 
 根据《中国传统色：故宫里的色彩美学》（以下简称为“原书”）一书，将书中的色彩翻译成前端代码 。
 
@@ -8,7 +8,7 @@
 
 因为原书中所有颜色的命名非常文艺，不好翻译，至少我不认为我有能力去翻译。 
 
-![](./doc/CTC.png)
+![](./doc/CTC.png?raw=true)
 
 所以所有颜色全部写成汉语拼音。
 
@@ -235,9 +235,9 @@ B = 255×（1- Y / 100）×（1- K / 100）
 
 算出来的结果和原书的示例、PS的计算结果差异较大，无法判断哪个更正确。  
 
-![](./doc/net-calc-cmyk-to-rgb.png)  
-![](./doc/ps-select.png)  
-![](./doc/color-difference.png)
+![](./doc/net-calc-cmyk-to-rgb.png?raw=true)  
+![](./doc/ps-select.png?raw=true)  
+![](./doc/color-difference.png?raw=true)
 
 而可以较为接近原书的结果的转换，基本都是提交给后台进行处理的……  
 
@@ -342,4 +342,4 @@ const color2 = salorTerm.getColorByName("群青"); // 从节气对象中获得
 
 * <span id="f2"><a href="#a2">注2</a></span>：[https://developer.mozilla.org/zh-CN/docs/Web/CSS/color_value/device-cmyk](https://developer.mozilla.org/zh-CN/docs/Web/CSS/color_value/device-cmyk)
 
-* <span id="f3"><a href="#a3">注3</a></span>：![](./doc/Brightness_Calculation_Formula.svg)
+* <span id="f3"><a href="#a3">注3</a></span>：![](./doc/Brightness_Calculation_Formula.svg?raw=true)
