@@ -292,9 +292,11 @@ const salorTerm = CTC.getSolarTermByName("立秋");
 
 #### 3.4.2. 节气对象
 
+##### 3.4.2.1. 说明
+
 节气对象是上面的代码中获得到的 `solarTerm` 的对象实例。
 
-##### 3.4.2.1. API
+##### 3.4.2.2. API
 
 | API 名称 | 作用 | 参数 | 返回值 |
 | --- | --- | --- | --- |
@@ -311,6 +313,8 @@ const color = solrTerm.getColorByName("群青");
 
 #### 3.4.3. 颜色对象
 
+##### 3.4.3.1. 说明
+
 颜色对象可以分别从 全局对象 CTC 和 节气对象 solarTerm 中获得。
 
 获得方式如下：
@@ -320,7 +324,7 @@ const color1 = CTC.getColorByName("群青"); // 从全局全局对象中获得
 const color2 = salorTerm.getColorByName("群青"); // 从节气对象中获得
 ```
 
-##### 3.4.3.1. API
+##### 3.4.3.2. API
 
 | API 名称 | 作用 | 参数 | 返回值 |
 | --- | --- | --- | --- |
@@ -333,11 +337,10 @@ const color2 = salorTerm.getColorByName("群青"); // 从节气对象中获得
 
 # 4. 参考资料
 
-<span id="f0"><a href="#a0">注0</a></span>：[24节气中英文对照](https://www.cma.gov.cn/2011xzt/essjqzt/jqhz/jqhz02/201312/t20131213_233952.html)
+* <span id="f0"><a href="#a0">注0</a></span>：[24节气中英文对照](https://www.cma.gov.cn/2011xzt/essjqzt/jqhz/jqhz02/201312/t20131213_233952.html)
 
-<span id="f1"><a href="#a1">注1</a></span>：[中国人名汉语拼音字母拼写规则](http://www.moe.gov.cn/jyb_sjzl/ziliao/A19/201001/t20100115_75609.html)<br />　　 [“吕”字有了正式英文名“LYU”](http://edu.sina.com.cn/en/2012-10-11/094569768.shtml)
+* <span id="f1"><a href="#a1">注1</a></span>：[中国人名汉语拼音字母拼写规则](http://www.moe.gov.cn/jyb_sjzl/ziliao/A19/201001/t20100115_75609.html)<br />　　 [“吕”字有了正式英文名“LYU”](http://edu.sina.com.cn/en/2012-10-11/094569768.shtml)
 
-<span id="f2"><a href="#a2">注2</a></span>：[https://developer.mozilla.org/zh-CN/docs/Web/CSS/color_value/device-cmyk](https://developer.mozilla.org/zh-CN/docs/Web/CSS/color_value/device-cmyk)
+* <span id="f2"><a href="#a2">注2</a></span>：[https://developer.mozilla.org/zh-CN/docs/Web/CSS/color_value/device-cmyk](https://developer.mozilla.org/zh-CN/docs/Web/CSS/color_value/device-cmyk)
 
-
-<span id="f3"><a href="#a3">注3</a></span>：![](./doc/Brightness_Calculation_Formula.svg)
+* <span id="f3"><a href="#a3">注3</a></span>：![](./doc/Brightness_Calculation_Formula.svg)
