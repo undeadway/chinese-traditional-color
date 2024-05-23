@@ -9,33 +9,33 @@
 </body>
 <style>
 #ctc-box {
-    width: 4090px;
+    width: 6090px;
 }
 
 .row-box {
     display: inline-block;
 }
 .soloar-term-box {
-    width: 1000px;
+    width: 1500px;
     margin: 10px;
 }
 
 .color-box {
     display: inline-block;
-    height: 100px;
-    padding:10px;
-    width: calc(25% - 20px);
+    height: 130px;
+    padding:20px;
+    width: calc(25% - 40px);
 }
 
 .st-title-box {
-    padding:10px;
+    padding:20px;
     font-weight: bold;
     font-size: 40px;
 }
 
 .color-titlt-box {
     font-weight: bold;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .white-font-box {
@@ -79,26 +79,37 @@ for (let i = 0; i < solorTermList.length; i++) {
         colorDiv.id = `color-${j}`;
         colorDiv.className = "color-box";
 
+        const hexRgb = colorObj.getHexRgb();
+
         const colorTTlDiv = document.createElement("div");
         colorTTlDiv.innerHTML = `${colorObj.getCnName()}（${colorObj.getEnName()}）`;
         colorTTlDiv.className = "color-titlt-box";
-        colorDiv.style.backgroundColor = colorObj.getHexRgb();
+        colorDiv.style.backgroundColor = hexRgb;
 
         const rgbValBox = document.createElement("div");
         const { r, g, b } = colorObj.getRgb();
-        rgbValBox.innerHTML = `R${r} G${g} B${b}`;
+        rgbValBox.innerHTML = `R:${r} G:${g} B:${b}`;
 
         const cmykValBox = document.createElement("div");
         const { c, m, y, k } = colorObj.getCmyk();
-        cmykValBox.innerHTML = `C${c} M${m} Y${y} K${k}`;
+        cmykValBox.innerHTML = `C:${c} M:${m} Y:${y} K:${k}`;
 
-        if (colorObj.getBrightness() < 0.618) {
+        const brightness = colorObj.getBrightness();
+        if (brightness < 0.618) {
             colorDiv.className += " white-font-box";
         }
 
+        const brightnessDiv = document.createElement("div");
+        brightnessDiv.innerHTML = `明度:${Number(brightness).toFixed(3)}`;
+
+        const hexDiv = document.createElement("div");
+        hexDiv.innerHTML = `HEX:${hexRgb}`;
+
         colorDiv.appendChild(colorTTlDiv);
-        colorDiv.appendChild(rgbValBox);
         colorDiv.appendChild(cmykValBox);
+        colorDiv.appendChild(rgbValBox);
+        colorDiv.appendChild(hexDiv);
+        colorDiv.appendChild(brightnessDiv);
         stDiv.appendChild(colorDiv);
     }
     rowDiv.appendChild(stDiv);
