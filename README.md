@@ -8,7 +8,7 @@
 
 因为原书中所有颜色的命名非常文艺，不好翻译，至少我不认为我有能力去翻译。 
 
-![](./doc/CTC.png?raw=true)
+[![](./doc/CTC.png?raw=true)](./dist/index.html)
 
 所以所有颜色全部写成汉语拼音。
 
@@ -132,13 +132,13 @@ CTC_AutumnBeginning_qunqing
 想要直接使用 CSS ，直接导入相关的 CSS 文件即可。
 
 ```
- <link rel="localization" href="https://gitee.com/undeadway/chinese-traditional-color/raw/master/dist/index.css" />
+ <link rel="localization" href="http://ctc.daoyiclub.com/chinese-traditional-color.css" />
 ```
 
 要使用 JS 相关的功能，直接导入相关的 JS 文件即可。
 
 ```
-<script src="https://gitee.com/undeadway/chinese-traditional-color/raw/master/dist/index.js">
+<script src="http://ctc.daoyiclub.com/chinese-traditional-color.js">
 ```
 
 ## 2.2. npm
@@ -263,14 +263,12 @@ B = 255×（1- Y / 100）×（1- K / 100）
 <html>
 <div id="demo">abc</div>
 <script>
-dont demo = document.getElementById("demo");
+const demo = document.getElementById("demo");
 const salorTerm = CTC.getSolarTermByName("立秋");
 const color = salorTerm.getColorByName("群青");
 const bgColor = CTC.getColorByName("黄白游");
-demo.css({
-	"color": color.getHexRgb(),
-	"background"： bgColor.getHexRgb()
-});
+demo.style.color = color.getHexRgb();
+demo.style.backgroundColor = bgColor.getHexRgb();
 </script>
 </html>
 ```
