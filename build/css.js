@@ -37,7 +37,9 @@ for (const item of data) {
 	}
 }
 
-const scssFile = `${scssVals.join("\r\n")}
+const scssFile = `@charset "UTF-8";
+
+${scssVals.join("\r\n")}
 
 :export {
 ${scssExportsVals.join("\r\n")}
@@ -45,7 +47,9 @@ ${scssExportsVals.join("\r\n")}
 const scssFileName = `${__dirname}/../dist/chinese-traditional-color.scss`;
 fs.writeFileSync(scssFileName, scssFile);
 
-const cssFile = `:root {
+const cssFile = `@charset "UTF-8";
+
+:root {
 ${cssVals.join("\r\n")}
 };`;
 
