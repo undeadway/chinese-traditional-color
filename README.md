@@ -109,8 +109,8 @@ CTC_AutumnBeginning_qunqing
 | 醽、醁 | 醽醁 | líng lù | linglu | [https://www.zdic.net/hans/醽醁](https://www.zdic.net/hans/醽醁) | |
 | 翕 | 翕赩 | xī xì | xixi | [https://www.zdic.net/hans/翕赩](https://www.zdic.net/hans/翕赩) | |
 | 韎、韐 | 韎韐 |  mèi gé | meige | [https://www.zdic.net/hans/韎韐](https://www.zdic.net/hans/韎韐) | |
-| 繱、犗 | 繱犗 | cōng jiè | congjie | [https://www.zdic.net/hans/繱](https://www.zdic.net/hans/繱)<br />[https://www.zdic.net/hans/犗](https://www.zdic.net/hans/犗) | 未找到“赪紫”单独成词的的例子<br />未找到“赪紫”单独成词的的例子 |
-| 黪 | 黪紫<br />黑黪 | cǎn zǐ<br />hēi cǎn | canzi<br />heican | [https://www.zdic.net/hans/黪](https://www.zdic.net/hans/黪) | 未找到“赪紫”单独成词的的例子<br />未找到“黑黪”单独成词的的例子 |
+| 繱、犗 | 繱犗 | cōng jiè | congjie | [https://www.zdic.net/hans/繱](https://www.zdic.net/hans/繱)<br />[https://www.zdic.net/hans/犗](https://www.zdic.net/hans/犗) | 未找到“繱犗”单独成词的的例子 |
+| 黪 | 黪紫<br />黑黪 | cǎn zǐ<br />hēi cǎn | canzi<br />heican | [https://www.zdic.net/hans/黪](https://www.zdic.net/hans/黪) | 未找到“黪紫”单独成词的的例子<br />未找到“黑黪”单独成词的的例子 |
 | 縓 | 縓缘 | quàn yuán | quanyuan | [https://www.zdic.net/hans/縓缘](https://www.zdic.net/hans/縓缘) | |
 | 鞓 | 鞓红 | tīng hóng | tinghong | [https://www.zdic.net/hans/鞓红](https://www.zdic.net/hans/鞓红) | |
 | 綟 | 綟绶 | lì shòu | lishou | [https://www.zdic.net/hans/綟绶](https://www.zdic.net/hans/綟绶) | |
