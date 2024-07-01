@@ -45,6 +45,7 @@
 <script>
 const ctcBox = document.getElementById("ctc-box");
 const solorTermList = CTC.getSolarTermList();
+const PHI_GOLDEN_RATIO = (Math.pow(5, 0.5) -1) / 2;
 
 let rowDiv = null;
 
@@ -109,8 +110,8 @@ for (let i = 0; i < solorTermList.length; i++) {
         brightnessDiv.innerHTML = `明度:${Number(brightness).toFixed(3)}`;
         colorDiv.appendChild(brightnessDiv);
 
-        // 设置字体样式
-        if (brightness < 0.618) { // 以黄金分割分别显示黑色和白色
+        // 设置文字颜色
+        if (brightness < PHI_GOLDEN_RATIO) { // 以黄金分割分别显示黑色和白色
             colorDiv.className += " white-font-box";
         }
 
